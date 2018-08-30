@@ -6,6 +6,8 @@ import {AppNavbarComponent} from './app-navbar/app-navbar.component';
 import {PreloaderComponent} from './preloader/preloader.component';
 import {TopHeaderComponent} from './top-header/top-header.component';
 import {LeftSidebarComponent} from './left-sidebar/left-sidebar.component';
+import {routing} from './app.routing';
+import {HomeModule} from './home/home.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import {LeftSidebarComponent} from './left-sidebar/left-sidebar.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    routing,
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
