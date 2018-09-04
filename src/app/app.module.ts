@@ -8,6 +8,10 @@ import {TopHeaderComponent} from './top-header/top-header.component';
 import {LeftSidebarComponent} from './left-sidebar/left-sidebar.component';
 import {routing} from './app.routing';
 import {HomeModule} from './home/home.module';
+import {FooterComponent} from './footer/footer.component';
+import {JsonReaderService} from './service/json-reader-service';
+import {HttpClientModule} from '@angular/common/http';
+import {ContactService} from './service/contact-service';
 
 @NgModule({
   declarations: [
@@ -15,14 +19,19 @@ import {HomeModule} from './home/home.module';
     TopHeaderComponent,
     LeftSidebarComponent,
     AppNavbarComponent,
-    AppComponent
+    AppComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     routing,
     HomeModule
   ],
-  providers: [],
+  providers: [
+    JsonReaderService,
+    ContactService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1007,7 +1007,7 @@ blockquote {
     text-align: center; }
     .mdl-layout__drawer .social-icons li {
       display: inline-block;
-      padding: 0 7px; }
+      padding: 0 9px; }
       .mdl-layout__drawer .social-icons li a i {
         color: #848484;
         -moz-transition: 0.3s ease;
@@ -1015,13 +1015,13 @@ blockquote {
         -webkit-transition: 0.3s ease;
         transition: 0.3s ease; }
       .mdl-layout__drawer .social-icons li a.facebook-link:hover i {
-        color: #3b5998; }
+        color: #ff3d00; }
       .mdl-layout__drawer .social-icons li a.twitter-link:hover i {
-        color: #55acee; }
+        color: #fec107; }
       .mdl-layout__drawer .social-icons li a.linkedin-link:hover i {
         color: #007bb6; }
       .mdl-layout__drawer .social-icons li a.dribbble-link:hover i {
-        color: #ea4c89; }
+        color: #01c853; }
       .mdl-layout__drawer .social-icons li a.instagram-link:hover i {
         color: #3f729b; }
   .mdl-layout__drawer .mdl-navigation {
@@ -1209,7 +1209,7 @@ blockquote {
   text-align: center; }
   .about-sec .social-icons li {
     display: inline-block;
-    padding: 0 9px; }
+    padding: 0 11px; }
     .about-sec .social-icons li:focus {
       outline: none; }
     .about-sec .social-icons li a i {
@@ -1220,13 +1220,13 @@ blockquote {
       -webkit-transition: 0.3s ease;
       transition: 0.3s ease; }
     .about-sec .social-icons li a.facebook-link:hover i {
-      color: #3b5998; }
+      color: #ff3d00; }
     .about-sec .social-icons li a.twitter-link:hover i {
-      color: #55acee; }
+      color: #fec107; }
     .about-sec .social-icons li a.linkedin-link:hover i {
       color: #007bb6; }
     .about-sec .social-icons li a.dribbble-link:hover i {
-      color: #ea4c89; }
+      color: #01c853; }
     .about-sec .social-icons li a.instagram-link:hover i {
       color: #3f729b; }
 .about-sec .profile-wrap li {
@@ -1710,7 +1710,7 @@ blockquote {
   text-align: center; }
   .footer-sec .social-icons li {
     display: inline-block;
-    padding: 0 9px; }
+    padding: 0 11px; }
     .footer-sec .social-icons li:focus {
       outline: none; }
     .footer-sec .social-icons li a i {
@@ -1720,13 +1720,13 @@ blockquote {
       -webkit-transition: 0.3s ease;
       transition: 0.3s ease; }
     .footer-sec .social-icons li a.facebook-link:hover i {
-      color: #3b5998; }
+      color: #ff3d00; }
     .footer-sec .social-icons li a.twitter-link:hover i {
-      color: #55acee; }
+      color: #fec107; }
     .footer-sec .social-icons li a.linkedin-link:hover i {
       color: #007bb6; }
     .footer-sec .social-icons li a.dribbble-link:hover i {
-      color: #ea4c89; }
+      color: #01c853; }
     .footer-sec .social-icons li a.instagram-link:hover i {
       color: #3f729b; }
 

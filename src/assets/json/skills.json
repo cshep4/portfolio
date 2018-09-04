@@ -1,0 +1,96 @@
+[
+  [
+    {
+      "title": "back-end",
+      "skills": [
+        {
+          "name": "Java",
+          "ability": "95",
+          "colour": "blue-bar"
+        },
+        {
+          "name": "Kotlin",
+          "ability": "85",
+          "colour": "green-bar"
+        },
+        {
+          "name": "PHP",
+          "ability": "75",
+          "colour": "yellow-bar"
+        },
+        {
+          "name": "Go",
+          "ability": "50",
+          "colour": "red-bar"
+        }
+      ]
+    },
+    {
+      "title": "front-end",
+      "skills": [
+        {
+          "name": "Angular (2+)",
+          "ability": "80",
+          "colour": "blue-bar"
+        },
+        {
+          "name": "HTML",
+          "ability": "75",
+          "colour": "green-bar"
+        },
+        {
+          "name": "CSS",
+          "ability": "65",
+          "colour": "yellow-bar"
+        },
+        {
+          "name": "JavaScript",
+          "ability": "80",
+          "colour": "red-bar"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "title": "mobile",
+      "skills": [
+        {
+          "name": "Ionic",
+          "ability": "80",
+          "colour": "blue-bar"
+        },
+        {
+          "name": "Native Android",
+          "ability": "65",
+          "colour": "green-bar"
+        },
+        {
+          "name": "Firebase",
+          "ability": "70",
+          "colour": "yellow-bar"
+        }
+      ]
+    },
+    {
+      "title": "databases",
+      "skills": [
+        {
+          "name": "SQL",
+          "ability": "80",
+          "colour": "blue-bar"
+        },
+        {
+          "name": "NoSQL",
+          "ability": "70",
+          "colour": "green-bar"
+        },
+        {
+          "name": "JPA/Hibernate",
+          "ability": "80",
+          "colour": "yellow-bar"
+        }
+      ]
+    }
+  ]
+]
