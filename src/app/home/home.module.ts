@@ -18,6 +18,8 @@ import {SkillComponent} from './skill/skill.component';
 import {SkillRowComponent} from './skill-row/skill-row.component';
 import {InViewportModule} from 'ng-in-viewport';
 import {AngularFontAwesomeModule} from 'angular-font-awesome';
+import {ToolsComponent} from './tools/tools.component';
+import {ToolIconComponent} from './tools/tool-icon/tool-icon.component';
 
 @NgModule({
     declarations: [
@@ -35,7 +37,9 @@ import {AngularFontAwesomeModule} from 'angular-font-awesome';
       ReferencesComponent,
       ClientComponent,
       PricingComponent,
-      ContactComponent
+      ContactComponent,
+      ToolsComponent,
+      ToolIconComponent
     ],
     imports: [
         CommonModule,
