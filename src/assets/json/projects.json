@@ -1,0 +1,123 @@
+[{
+  "name": "portfolio",
+  "language": "Angular | Go",
+  "title": "Portfolio Website",
+  "icon": "zmdi zmdi-desktop-mac",
+  "colour": "bg-yellow",
+  "text": "This portfolio website to showcase my personal projects and experience in my career so far. With a small back-end for email.",
+  "date": "09/18",
+  "links": [{
+    "icon": "zmdi zmdi-eye",
+    "link": "https://www.chrisshepherd.io/"
+  },
+    {
+      "icon": "zmdi zmdi-github",
+      "link": "https://github.com/cshep4/portfolio-be-api"
+    },
+    {
+      "icon": "zmdi zmdi-github",
+      "link": "https://github.com/cshep4/portfolio"
+    }
+  ]
+},
+  {
+    "name": "premierpredictor",
+    "language": "Ionic | Kotlin",
+    "title": "Premier Predictor",
+    "icon": "zmdi zmdi-smartphone-iphone",
+    "colour": "bg-blue",
+    "text": "Mobile app for users to predict match scores for the Premier League season and create mini-leagues to compete against friends.",
+    "date": "08/18",
+    "links": [{
+      "icon": "fab fa-android",
+      "link": "https://play.google.com/store/apps/details?id=com.cshep4.premierpredictor"
+    },
+      {
+        "icon": "fab fa-apple",
+        "link": "https://itunes.apple.com/us/app/premier-predictor-18-19/id1418486863?ls=1&mt=8"
+      },
+      {
+        "icon": "zmdi zmdi-github",
+        "link": "https://github.com/cshep4/premierpredictor"
+      },
+      {
+        "icon": "zmdi zmdi-github",
+        "link": "https://github.com/cshep4/premier-predictor"
+      }
+    ]
+  },
+  {
+    "name": "worldcuppredictor",
+    "language": "Ionic | Kotlin",
+    "title": "World Cup Predictor",
+    "icon": "zmdi zmdi-smartphone-iphone",
+    "colour": "bg-red",
+    "text": "Mobile app for users to predict match scores for the 2018 World Cup and create mini-leagues to compete against friends.",
+    "date": "06/18",
+    "links": [{
+      "icon": "fab fa-android",
+      "link": "https://play.google.com/store/apps/details?id=com.cshep4.WCP"
+    },
+      {
+        "icon": "fab fa-apple",
+        "link": "https://itunes.apple.com/us/app/wc-2018-predictor/id1391058070?ls=1&mt=8"
+      },
+      {
+        "icon": "zmdi zmdi-github",
+        "link": "https://github.com/cshep4/wcpredictor"
+      },
+      {
+        "icon": "zmdi zmdi-github",
+        "link": "https://github.com/cshep4/world-cup-predictor"
+      }
+    ]
+  },
+  {
+    "name": "monsterattack",
+    "language": "Java",
+    "title": "Monster Attack",
+    "icon": "zmdi zmdi-gamepad",
+    "colour": "bg-green",
+    "text": "Shoot 'Em Up mobile game with the theme 'Mutation' developed whilst at University, then redeveloped using the LibGDX game engine.",
+    "date": "03/18",
+    "links": [{
+      "icon": "zmdi zmdi-github",
+      "link": "https://github.com/cshep4/MonsterAttack_LibGDX"
+    }]
+  },
+  {
+    "name": "gyme",
+    "language": "PHP | HTML/CSS | JS | Kotlin",
+    "title": "Gyme",
+    "icon": "zmdi zmdi-desktop-mac",
+    "colour": "bg-red",
+    "text": "Responsive web application for users to track their performance in the gym and view progress with various analytics.",
+    "date": "08/17",
+    "links": [{
+      "icon": "zmdi zmdi-eye",
+      "link": "https://www.gyme.co.uk/"
+    },
+      {
+        "icon": "zmdi zmdi-github",
+        "link": "https://github.com/cshep4/gyme"
+      },
+      {
+        "icon": "zmdi zmdi-github",
+        "link": "https://github.com/cshep4/gyme_v2"
+      }
+    ]
+  },
+  {
+    "name": "3dgameengine",
+    "language": "C++",
+    "title": "3D Game Engine",
+    "icon": "zmdi zmdi-gamepad",
+    "colour": "bg-yellow",
+    "text": "3D game engine developed during my final year of University, which uses an input file to determine environment data.",
+    "date": "01/15",
+    "links": [{
+      "icon": "zmdi zmdi-github",
+      "link": "https://github.com/cshep4/gyme_v2"
+    }]
+  }
+]

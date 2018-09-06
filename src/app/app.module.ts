@@ -12,6 +12,7 @@ import {FooterComponent} from './footer/footer.component';
 import {JsonReaderService} from './service/json-reader-service';
 import {HttpClientModule} from '@angular/common/http';
 import {ContactService} from './service/contact-service';
+import {PortfolioModule} from './portfolio/portfolio.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import {ContactService} from './service/contact-service';
     BrowserModule,
     HttpClientModule,
     routing,
-    HomeModule
+    HomeModule,
+    PortfolioModule
   ],
   providers: [
     JsonReaderService,

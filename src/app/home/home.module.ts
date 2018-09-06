@@ -20,6 +20,7 @@ import {InViewportModule} from 'ng-in-viewport';
 import {AngularFontAwesomeModule} from 'angular-font-awesome';
 import {ToolsComponent} from './tools/tools.component';
 import {ToolIconComponent} from './tools/tool-icon/tool-icon.component';
+import {ProjectComponent} from '../project/project.component';
 
 @NgModule({
     declarations: [
@@ -39,7 +40,8 @@ import {ToolIconComponent} from './tools/tool-icon/tool-icon.component';
       PricingComponent,
       ContactComponent,
       ToolsComponent,
-      ToolIconComponent
+      ToolIconComponent,
+      ProjectComponent
     ],
     imports: [
         CommonModule,

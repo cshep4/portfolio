@@ -1,0 +1,22 @@
+<div class="mdl-card mdl-shadow--2dp pa-0">
+  <div class="mdl-card__title pa-0">
+    <div class="blog-img blog-1"></div>
+  </div>
+  <div class="mdl-card__supporting-text relative">
+    <span class="blog-cat">{{ project.language }}</span>
+    <a href="youtube-blog-post.html">
+      <h4 class="mt-15 mb-20">{{ project.title }}</h4>
+    </a>
+    <p>{{ project.text }}</p>
+    <a href="youtube-blog-post.html" [ngClass]="project.colour" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-shadow--8dp">
+      <i [ngClass]="project.icon"></i>
+    </a>
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <span class="blog-post-date inline-block">{{ project.date }}</span>
+    <div class="mdl-layout-spacer"></div>
+    <button *ngFor="let link of project.links;" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+      <i [ngClass]="link.icon"></i>
+    </button>
+  </div>
+</div>
