@@ -2,6 +2,7 @@
 <div class="main-content relative">
   <div class="container">
     <app-project-list *ngIf="!project"></app-project-list>
+    <app-portfolio-project [name]="name" *ngIf="project"></app-portfolio-project>
   </div>
 </div>
 <!--/Main Content-->

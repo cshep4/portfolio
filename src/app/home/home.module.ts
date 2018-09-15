@@ -20,7 +20,8 @@ import {InViewportModule} from 'ng-in-viewport';
 import {AngularFontAwesomeModule} from 'angular-font-awesome';
 import {ToolsComponent} from './tools/tools.component';
 import {ToolIconComponent} from './tools/tool-icon/tool-icon.component';
-import {ProjectComponent} from '../project/project.component';
+import {SharedModule} from '../shared.module';
+import {AchievementsComponent} from './achievements/achievements.component';
 
 @NgModule({
     declarations: [
@@ -41,13 +42,14 @@ import {ProjectComponent} from '../project/project.component';
       ContactComponent,
       ToolsComponent,
       ToolIconComponent,
-      ProjectComponent
+      AchievementsComponent
     ],
     imports: [
         CommonModule,
         FormsModule,
         InViewportModule,
-        AngularFontAwesomeModule
+        AngularFontAwesomeModule,
+        SharedModule
     ]
 })
 export class HomeModule {

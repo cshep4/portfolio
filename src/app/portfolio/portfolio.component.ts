@@ -27,10 +27,8 @@ export class PortfolioPageComponent implements OnInit {
       this.jsonReaderService.readJson(this.url).then(result => {
         const data: any = result;
         this.project = data.find( d => d.name === this.name);
-        console.log(this.project);
       }, err => {
         this.project = null;
-        console.log(this.project);
       });
     });
   }

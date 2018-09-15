@@ -1,6 +1,6 @@
-<!--Portfolio Sec-->
-<section id="blog_sec" class="blog-sec sec-pad-top-sm">
-  <h2 class="mb-30">portfolio</h2>
+<!--Project List Sec-->
+<section id="blog_sec" class="blog-sec mt-180 mt-sm-120">
+  <h2 class="mb-30 font-white">portfolio</h2>
   <div class="row">
     <div class="col-sm-4 mb-30">
       <app-project *ngIf="portfolioWebsite" [project]="portfolioWebsite"></app-project>
@@ -8,6 +8,7 @@
     <div class="col-sm-4 mb-30">
       <app-project *ngIf="premierPredictor" [project]="premierPredictor"></app-project>
     </div>
+
     <div class="col-sm-4 mb-30">
       <app-project *ngIf="worldCupPredictor" [project]="worldCupPredictor"></app-project>
     </div>
@@ -23,11 +24,5 @@
       <app-project *ngIf="gameEngine" [project]="gameEngine"></app-project>
     </div>
   </div>
-  <footer class="text-center">
-    <h4>more coming soon...</h4>
-  </footer>
-  <!--<div class="text-center mt-20 mb-30">-->
-    <!--<a class="mdl-button mdl-js-button mdl-button&#45;&#45;raised mdl-js-ripple-effect  margin-lr-auto view-more" href="/portfolio">view all</a>-->
-  <!--</div>-->
 </section>
-<!--/Portfolio Sec-->
+<!--Project List Sec-->

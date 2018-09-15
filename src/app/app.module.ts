@@ -13,6 +13,7 @@ import {JsonReaderService} from './service/json-reader-service';
 import {HttpClientModule} from '@angular/common/http';
 import {ContactService} from './service/contact-service';
 import {PortfolioModule} from './portfolio/portfolio.module';
+import {UserCountService} from './service/user-count-service';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import {PortfolioModule} from './portfolio/portfolio.module';
   ],
   providers: [
     JsonReaderService,
-    ContactService
+    ContactService,
+    UserCountService
   ],
   bootstrap: [AppComponent]
 })

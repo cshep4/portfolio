@@ -1,5 +1,4 @@
 import {Component, Input, OnInit, ViewEncapsulation} from '@angular/core';
-import {JsonReaderService} from '../service/json-reader-service';
 
 @Component({
   selector: 'app-project',
@@ -13,5 +12,9 @@ export class ProjectComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {}
+
+  nagivate(url) {
+    window.location.href = url;
+  }
 
 }

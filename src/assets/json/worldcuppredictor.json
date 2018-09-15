@@ -1,0 +1,97 @@
+{
+  "name": "worldcuppredictor",
+  "imageClass": "wc-predictor-item",
+  "language": "Ionic | Kotlin",
+  "title": "World Cup 2018 Predictor",
+  "text" : [
+    "World cup 2018 predictor app, designed for users to correctly predict all the scores for the 2018 world cup to score points, as well as creating mini-leagues to compete with friends.",
+    "This is built using the Ionic framework, with back-end APIs written in Kotlin using Spring Boot. The back-end is fully unit tested using TDD and is currently being hosted on Heroku.",
+    "The database used to store all the data is using PostgreSQL",
+    "A scheduled AWS Lambda function is also used to automatically call an API to update match results, as well as user scores.",
+    "Match result data is retrieved from an external API, then used to compare against each user's predictions to assign points.",
+    "The app uses adverts to generate revenue. The adverts are provided by Google's Admob service."
+  ],
+  "note" : "Please note, I have decided to take this app down from the app stores since the World Cup has finished. This is due to switching Heroku and PostgreSQL servers to a free plan, meaning the app wasn't suitable for production anymore. The final user count is 6812.",
+  "date": "Jun 2018",
+  "userCount" : "WorldCupPredictor",
+  "category" : "mobile",
+  "techStack" : [
+    "Kotlin",
+    "Spring Boot",
+    "Ionic",
+    "Angular",
+    "HTML",
+    "Sass",
+    "TypeScript",
+    "PostgreSQL",
+    "DynamoDB",
+    "AWS Lambda",
+    "Heroku",
+    "Admob"
+  ],
+  "links": [{
+      "icon": "zmdi zmdi-github",
+      "url": "https://github.com/cshep4/wcpredictor",
+      "text": "Back-end"
+    },
+    {
+      "icon": "zmdi zmdi-github",
+      "url": "https://github.com/cshep4/world-cup-predictor",
+      "text": "Front-end"
+    }],
+  "reviews" : [{
+    "name" : "ColinFor",
+    "text" : "Brilliant App. You thought of everything and there were no glitches. Really enjoyed it. Well done!",
+    "rating" : 5,
+    "os" : "apple",
+    "region" : "United Kingdom"
+  },{
+    "name" : "tiddlesriddles",
+    "text" : "Really clearly laid out and a great fun idea to test your predictions against your friends!f",
+    "rating" : 5,
+    "os" : "android",
+    "region" : "United Kingdom"
+  },{
+    "name" : "ncw____",
+    "text" : "Love it - dead simple",
+    "rating" : 5,
+    "os" : "apple",
+    "region" : "United States"
+  },{
+    "name" : "Declan Shepherd",
+    "text" : "As beautiful as the game itself",
+    "rating" : 5,
+    "os" : "android",
+    "region" : "United Kingdom"
+  },{
+    "name" : "T1nk the 1st",
+    "text" : "Great app for predicting scores for world cup and playing against friends",
+    "rating" : 5,
+    "os" : "apple",
+    "region" : "United Kingdom"
+  },{
+    "name" : "Yusuf Sader",
+    "text" : "Fantastic App! Great for having sweepstakes and the likes with work colleagues/mates. All bugs have been fixed too :D",
+    "rating" : 5,
+    "os" : "android",
+    "region" : "United Kingdom"
+  }],
+  "related": [
+    [{
+    "name": "premierpredictor",
+    "imageClass": "premier-predictor-thumb",
+    "language": "Ionic | Kotlin",
+    "title": "Premier Predictor",
+    "icon": "zmdi zmdi-smartphone-iphone",
+    "colour": "bg-blue"
+    }]
+  ],
+  "previous" : {
+    "name": "monsterattack",
+    "title": "Monster Attack"
+  },
+  "next" : {
+    "name": "premierpredictor",
+    "title": "Premier Predictor"
+  }
+}

@@ -145,20 +145,20 @@ var matResume = function () {
 	/*Slimscroll*/
 	$('.nicescroll-bar').slimscroll({height:'100%',color: '#01c853',opacity:1,size:5});
 
-	/*Testimonial carousel*/
-	$('.testimonial-carousel').owlCarousel({
-		loop:true,
-		margin:0,
-		nav:true,
-		navText: ["<i class='zmdi zmdi-arrow-left'></i>","<i class='zmdi zmdi-arrow-right'></i>"],
-		dots:false,
-		autoplay:true,
-		responsive:{
-			0:{
-				items:1
-			}
-		}
-	});
+	// /*Testimonial carousel*/
+	// $('.testimonial-carousel').owlCarousel({
+	// 	loop:true,
+	// 	margin:0,
+	// 	nav:true,
+	// 	navText: ["<i class='zmdi zmdi-arrow-left'></i>","<i class='zmdi zmdi-arrow-right'></i>"],
+	// 	dots:false,
+	// 	autoplay:true,
+	// 	responsive:{
+	// 		0:{
+	// 			items:1
+	// 		}
+	// 	}
+	// });
 
 	/*Client carousel*/
 	$('#client_sec .client-carousel').owlCarousel({

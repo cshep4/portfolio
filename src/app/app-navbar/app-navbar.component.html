@@ -26,8 +26,8 @@
         <a *ngIf="isNotHomePage()" class="mdl-navigation__link" [routerLink]="['']" fragment="blog_sec" data-scroll>portfolio</a>
       </li>
       <li>
-        <a *ngIf="!isNotHomePage()" class="mdl-navigation__link" href="#references_sec" data-scroll>references</a>
-        <a *ngIf="isNotHomePage()" class="mdl-navigation__link" [routerLink]="['']" fragment="references_sec" data-scroll>references</a>
+        <a *ngIf="!isNotHomePage()" class="mdl-navigation__link" href="#achievements_sec" data-scroll>achievements</a>
+        <a *ngIf="isNotHomePage()" class="mdl-navigation__link" [routerLink]="['']" fragment="achievements_sec" data-scroll>achievements</a>
       </li>
       <li>
         <a *ngIf="!isNotHomePage()" class="mdl-navigation__link" href="#contact_sec" data-scroll>contact</a>
@@ -145,13 +145,13 @@
           </a>
         </li>
         <li>
-          <a *ngIf="!isNotHomePage()" class="mdl-navigation__link border-top-sep"  href="#references_sec" data-scroll>
+          <a *ngIf="!isNotHomePage()" class="mdl-navigation__link border-top-sep"  href="#achievements_sec" data-scroll>
             <i class="zmdi zmdi-bookmark pr-15"></i>
-            <span class="font-capitalize">references</span>
+            <span class="font-capitalize">achievements</span>
           </a>
-          <a *ngIf="isNotHomePage()" class="mdl-navigation__link border-top-sep"  [routerLink]="['']" fragment="references_sec" data-scroll>
+          <a *ngIf="isNotHomePage()" class="mdl-navigation__link border-top-sep"  [routerLink]="['']" fragment="achievements_sec" data-scroll>
             <i class="zmdi zmdi-bookmark pr-15"></i>
-            <span class="font-capitalize">references</span>
+            <span class="font-capitalize">achievements</span>
           </a>
         </li>
 

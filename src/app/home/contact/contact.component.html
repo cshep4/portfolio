@@ -27,7 +27,12 @@
           <div class="form-group">
             <div class="align-center">
               <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect  bg-blue font-white" [disabled]="submitButtonDisabled">
-                submit
+                <span *ngIf="!submitButtonDisabled">
+                  submit
+                </span>
+                <span *ngIf="submitButtonDisabled">
+                  sending <fa name="sync" animation="spin"></fa>
+                </span>
               </button>
             </div>
           </div>

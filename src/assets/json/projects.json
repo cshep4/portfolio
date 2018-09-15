@@ -1,5 +1,6 @@
 [{
   "name": "portfolio",
+  "imageClass": "portfolio-thumb",
   "language": "Angular | Go",
   "title": "Portfolio Website",
   "icon": "zmdi zmdi-desktop-mac",
@@ -8,46 +9,53 @@
   "date": "09/18",
   "links": [{
     "icon": "zmdi zmdi-eye",
-    "link": "https://www.chrisshepherd.io/"
+    "url": "https://www.chrisshepherd.io/",
+    "text": "View site"
   },
-    {
-      "icon": "zmdi zmdi-github",
-      "link": "https://github.com/cshep4/portfolio-be-api"
-    },
-    {
-      "icon": "zmdi zmdi-github",
-      "link": "https://github.com/cshep4/portfolio"
-    }
-  ]
+  {
+    "icon": "zmdi zmdi-github",
+    "url": "https://github.com/cshep4/portfolio-be-api",
+    "text": "Back-end"
+  },
+  {
+    "icon": "zmdi zmdi-github",
+    "url": "https://github.com/cshep4/portfolio",
+    "text": "Front-end"
+  }]
 },
   {
     "name": "premierpredictor",
+    "imageClass": "premier-predictor-thumb",
     "language": "Ionic | Kotlin",
     "title": "Premier Predictor",
     "icon": "zmdi zmdi-smartphone-iphone",
     "colour": "bg-blue",
-    "text": "Mobile app for users to predict match scores for the Premier League season and create mini-leagues to compete against friends.",
+    "text": "Mobile app for users to predict scores for the Premier League and create mini-leagues to compete against friends.",
     "date": "08/18",
     "links": [{
       "icon": "fab fa-android",
-      "link": "https://play.google.com/store/apps/details?id=com.cshep4.premierpredictor"
+      "url": "https://play.google.com/store/apps/details?id=com.cshep4.premierpredictor",
+      "text": "Google Play Store"
     },
-      {
-        "icon": "fab fa-apple",
-        "link": "https://itunes.apple.com/us/app/premier-predictor-18-19/id1418486863?ls=1&mt=8"
-      },
-      {
-        "icon": "zmdi zmdi-github",
-        "link": "https://github.com/cshep4/premierpredictor"
-      },
-      {
-        "icon": "zmdi zmdi-github",
-        "link": "https://github.com/cshep4/premier-predictor"
-      }
-    ]
+    {
+      "icon": "fab fa-apple",
+      "url": "https://itunes.apple.com/us/app/premier-predictor-18-19/id1418486863?ls=1&mt=8",
+      "text": "Apple App Store"
+    },
+    {
+      "icon": "zmdi zmdi-github",
+      "url": "https://github.com/cshep4/premierpredictor",
+      "text": "Back-end"
+    },
+    {
+      "icon": "zmdi zmdi-github",
+      "url": "https://github.com/cshep4/premier-predictor",
+      "text": "Front-end"
+    }]
   },
   {
     "name": "worldcuppredictor",
+    "imageClass": "wc-predictor-thumb",
     "language": "Ionic | Kotlin",
     "title": "World Cup Predictor",
     "icon": "zmdi zmdi-smartphone-iphone",
@@ -56,37 +64,43 @@
     "date": "06/18",
     "links": [{
       "icon": "fab fa-android",
-      "link": "https://play.google.com/store/apps/details?id=com.cshep4.WCP"
+      "link": "https://play.google.com/store/apps/details?id=com.cshep4.WCP",
+      "text": "Google Play Store"
     },
-      {
-        "icon": "fab fa-apple",
-        "link": "https://itunes.apple.com/us/app/wc-2018-predictor/id1391058070?ls=1&mt=8"
-      },
-      {
-        "icon": "zmdi zmdi-github",
-        "link": "https://github.com/cshep4/wcpredictor"
-      },
-      {
-        "icon": "zmdi zmdi-github",
-        "link": "https://github.com/cshep4/world-cup-predictor"
-      }
-    ]
+    {
+      "icon": "fab fa-apple",
+      "url": "https://itunes.apple.com/us/app/wc-2018-predictor/id1391058070?ls=1&mt=8",
+      "text": "Apple App Store"
+    },
+    {
+      "icon": "zmdi zmdi-github",
+      "url": "https://github.com/cshep4/wcpredictor",
+      "text": "Back-end"
+    },
+    {
+      "icon": "zmdi zmdi-github",
+      "url": "https://github.com/cshep4/world-cup-predictor",
+      "text": "Front-end"
+    }]
   },
   {
     "name": "monsterattack",
+    "imageClass": "monster-attack-thumb",
     "language": "Java",
     "title": "Monster Attack",
     "icon": "zmdi zmdi-gamepad",
     "colour": "bg-green",
-    "text": "Shoot 'Em Up mobile game with the theme 'Mutation' developed whilst at University, then redeveloped using the LibGDX game engine.",
+    "text": "Shoot 'Em Up mobile game with the theme 'Mutation' developed whilst at University, redeveloped with the LibGDX engine.",
     "date": "03/18",
     "links": [{
       "icon": "zmdi zmdi-github",
-      "link": "https://github.com/cshep4/MonsterAttack_LibGDX"
+      "url": "https://github.com/cshep4/MonsterAttack_LibGDX",
+      "text": "Git Repo"
     }]
   },
   {
     "name": "gyme",
+    "imageClass": "gyme-thumb",
     "language": "PHP | HTML/CSS | JS | Kotlin",
     "title": "Gyme",
     "icon": "zmdi zmdi-desktop-mac",
@@ -95,20 +109,23 @@
     "date": "08/17",
     "links": [{
       "icon": "zmdi zmdi-eye",
-      "link": "https://www.gyme.co.uk/"
+      "url": "https://www.gyme.co.uk/",
+      "text": "View site"
     },
-      {
-        "icon": "zmdi zmdi-github",
-        "link": "https://github.com/cshep4/gyme"
-      },
-      {
-        "icon": "zmdi zmdi-github",
-        "link": "https://github.com/cshep4/gyme_v2"
-      }
-    ]
+    {
+      "icon": "zmdi zmdi-github",
+      "url": "https://github.com/cshep4/gyme",
+      "text": "Main Codebase"
+    },
+    {
+      "icon": "zmdi zmdi-github",
+      "url": "https://github.com/cshep4/gyme_v2",
+      "text": "Rewritten APIs"
+    }]
   },
   {
     "name": "3dgameengine",
+    "imageClass": "game-engine-thumb",
     "language": "C++",
     "title": "3D Game Engine",
     "icon": "zmdi zmdi-gamepad",
@@ -117,7 +134,8 @@
     "date": "01/15",
     "links": [{
       "icon": "zmdi zmdi-github",
-      "link": "https://github.com/cshep4/gyme_v2"
+      "url": "https://github.com/cshep4/game-engine",
+      "text": "Git Repo"
     }]
   }
 ]

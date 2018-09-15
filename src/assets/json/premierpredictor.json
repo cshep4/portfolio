@@ -1,0 +1,87 @@
+{
+  "name": "premierpredictor",
+  "imageClass": "premier-predictor-item",
+  "language": "Ionic | Kotlin",
+  "title": "Premier Predictor 18/19",
+  "text" : [
+    "Premier League predictor app designed for users to correctly predict all the scores for the 18/19 season to score points, as well as creating mini-leagues to compete with friends. Users can also check live match scores and stats.",
+    "This is built using the Ionic framework, with back-end APIs written in Kotlin using Spring Boot. The back-end is fully unit tested using TDD and is currently being hosted on Heroku.",
+    "The database used to store user data and match results is using PostgreSQL. A noSQL DynamoDB database is used to store the live match stat data.",
+    "Websockets are used to send the live match data automatically to the user's device when the match is in-play. Spring Boot Scheduler is used to automatically check if games are in-play and to retrieve the live data.",
+    "A scheduled AWS Lambda function is also used to automatically call an API to update user scores. All match data is retrieved from an external API, the results are then used to compare against each user's predictions to assign points.",
+    "The app uses adverts to generate revenue. The adverts are provided by Google's Admob service."
+  ],
+  "date": "Aug 2018",
+  "android" : "https://play.google.com/store/apps/details?id=com.cshep4.premierpredictor",
+  "apple" : "https://itunes.apple.com/us/app/premier-predictor-18-19/id1418486863?ls=1&mt=8",
+  "userCount" : "PremierPredictor",
+  "category" : "mobile",
+  "techStack" : [
+    "Kotlin",
+    "Spring Boot",
+    "Ionic",
+    "Angular",
+    "HTML",
+    "Sass",
+    "TypeScript",
+    "PostgreSQL",
+    "DynamoDB",
+    "Firebase",
+    "AWS Lambda",
+    "Heroku",
+    "Admob"
+  ],
+  "links": [{
+    "icon": "zmdi zmdi-github",
+    "url": "https://github.com/cshep4/premierpredictor",
+    "text": "Back-end"
+  },
+  {
+    "icon": "zmdi zmdi-github",
+    "url": "https://github.com/cshep4/premier-predictor",
+    "text": "Front-end"
+  }],
+  "reviews" : [{
+    "name" : "Jmini45",
+    "text" : "Now that the BBC predictor game is gone I looked for another app for predictor and I must say that I am impressed with this app... great UI and scoring system ... everything seems to be working nicely also",
+    "rating" : 5,
+    "os" : "apple",
+    "region" : "Canada"
+  },{
+    "name" : "Jay Montrose",
+    "text" : "This app is very impressive as it is everything you need in a predictor app. You can create mini leagues to compete against friends and it is very fun. There is sometimes issues with the loading of the app but the makers of this app reacts to this exceptionally when letting them know by email via their website. This is also impressive how they respond to you too and give you updates.",
+    "rating" : 4,
+    "os" : "apple",
+    "region" : "United Kingdom"
+  },{
+    "name" : "Calvin Scott",
+    "text" : "After enjoying the world cup predictor it was great to see an app for the Premier League. App is easy to use and has plenty of new features",
+    "rating" : 5,
+    "os" : "android",
+    "region" : "United Kingdom"
+  },{
+    "name" : "msader",
+    "text" : "Looks better than the World Cup one. Can’t wait.",
+    "rating" : 5,
+    "os" : "apple",
+    "region" : "United Kingdom"
+  }],
+  "related": [
+    [{
+    "name": "worldcuppredictor",
+    "imageClass": "wc-predictor-thumb",
+    "language": "Ionic | Kotlin",
+    "title": "World Cup Predictor",
+    "icon": "zmdi zmdi-smartphone-iphone",
+    "colour": "bg-red"
+    }]
+  ],
+  "previous" : {
+    "name": "worldcuppredictor",
+    "title": "World Cup Predictor"
+  },
+  "next" : {
+    "name": "portfolio",
+    "title": "Portfolio Website"
+  }
+}
