@@ -1,0 +1,35 @@
+{
+  "name": "3dgameengine",
+  "imageClass" : "game-engine-item",
+  "numImages": 1,
+  "language": "C++",
+  "title": "3D Game Engine",
+  "text" : [
+    "This is a 3D game engine I developed from scratch. This was a piece of coursework which was assigned during my final year of University.",
+    "The engine was written entirely with C++, using the OpenGL API. SFML was used to handle user input, as well as texture loading.",
+    "Glew, Glut and GLM extension libraries were also used to handle mechanisms such as camera control and mathematics.",
+    "XML files are used to determine the environment, such as building and light placements, player initial starting point and the size of the map. All textures are also defined in this file.",
+    "The mouse is used to control the camera, with the arrow keys used to control the robots movement.",
+    "The Shift key can be used to toggle a panning camera. In this mode the arrow keys can be used to rotate the level, with the 'WASD' keys used to control the camera movement.",
+    "The 'L' key can be used to toggle the lights and the 'M' key will enable/disable mouse camera movement."
+  ],
+  "date" : "Jan 2015",
+  "category" : "game",
+  "techStack" : [
+    "C++",
+    "OpenGL",
+    "SFML",
+    "glew",
+    "glut",
+    "glm"
+  ],
+  "links": [{
+    "icon": "zmdi zmdi-github",
+    "url": "https://github.com/cshep4/game-engine",
+    "text": "Git Repo"
+  }],
+  "next" : {
+    "name": "gyme",
+    "title": "Gyme"
+  }
+}

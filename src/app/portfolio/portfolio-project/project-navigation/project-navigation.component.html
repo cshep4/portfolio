@@ -1,0 +1,15 @@
+<!--Navigation Sec-->
+<div class="navigation-block sec-pad-top-sm priview-text mb-30">
+  <div class="mdl-card mdl-shadow--2dp bg-blue pa-30">
+    <a *ngIf="project.previous" href="/portfolio/{{ project.previous.name }}" class="inline-block pull-left prev">
+      <i class="zmdi zmdi-arrow-left font-white"></i>
+      <span class="font-white inline-block pl-30">{{ project.previous.title }}</span>
+    </a>
+    <a *ngIf="project.next" href="/portfolio/{{ project.next.name }}" class="inline-block pull-right next">
+      <span class="font-white inline-block pr-30">{{ project.next.title }}</span>
+      <i class="zmdi zmdi-arrow-right font-white"></i>
+    </a>
+    <div class="clearfix"></div>
+  </div>
+</div>
+<!--/Navigation Sec-->

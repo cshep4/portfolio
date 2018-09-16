@@ -1,0 +1,23 @@
+<!--Related Projects Sec-->
+<section class="blog-sec sec-pad-top-sm">
+  <h2 class="mb-30">related projects</h2>
+  <div *ngFor="let projectRow of related" class="row">
+    <div *ngFor="let relatedProj of projectRow" class="col-sm-4 mb-30">
+      <div class="mdl-card mdl-shadow--2dp pa-0">
+        <div class="mdl-card__title pa-0">
+          <a href="/portfolio/{{ relatedProj.name }}"><div class="blog-img" [ngClass]="relatedProj.imageClass"></div></a>
+        </div>
+        <div class="mdl-card__supporting-text relative">
+          <span class="blog-cat">{{ relatedProj.language }}</span>
+          <a href="/portfolio/{{ relatedProj.name }}">
+            <h4 class="mt-15 mb-20">{{ relatedProj.title }}</h4>
+          </a>
+          <a href="/portfolio/{{ relatedProj.name }}" [ngClass]="relatedProj.colour" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-shadow--8dp">
+            <i [ngClass]="relatedProj.icon"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--/Related Projects Sec-->

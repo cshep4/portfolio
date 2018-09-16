@@ -1,0 +1,42 @@
+{
+  "name": "portfolio",
+  "imageClass" : "portfolio-item",
+  "numImages": 1,
+  "language" : "Angular | Go",
+  "title" : "Portfolio Website",
+  "text" : [
+    "Premier League predictor app designed for users to correctly predict all the scores for the 18/19 season to score points, as well as creating mini-leagues to compete with friends. Users can also check live match scores and stats.",
+    "This is built using the Ionic framework, with back-end APIs written in Kotlin using Spring Boot. The back-end is fully unit tested using TDD and is currently being hosted on Heroku.",
+    "The database used to store user data and match results is using PostgreSQL. A noSQL DynamoDB database is used to store the live match stat data.",
+    "Websockets are used to send the live match data automatically to the user's device when the match is in-play. Spring Boot Scheduler is used to automatically check if games are in-play and to retrieve the live data.",
+    "A scheduled AWS Lambda function is also used to automatically call an API to update user scores. All match data is retrieved from an external API, the results are then used to compare against each user's predictions to assign points.",
+    "The app uses adverts to generate revenue. The adverts are provided by Google's Admob service."
+  ],
+  "date" : "Sep 2018",
+  "website" : "https://www.chrisshepherd.io",
+  "category" : "wesbite",
+  "techStack" : [
+    "Angular",
+    "Go",
+    "HTML",
+    "Sass",
+    "Bootstrap",
+    "TypeScript",
+    "AWS Lambda"
+  ],
+  "links": [{
+      "icon": "zmdi zmdi-github",
+      "url": "https://github.com/cshep4/portfolio-be-api",
+      "text": "Back-end"
+    },
+    {
+      "icon": "zmdi zmdi-github",
+      "url": "https://github.com/cshep4/portfolio",
+      "text": "Front-end"
+    }
+  ],
+  "previous" : {
+    "name": "premierpredictor",
+    "title": "Premier Predictor 18/19"
+  }
+}

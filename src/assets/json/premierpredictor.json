@@ -1,6 +1,7 @@
 {
   "name": "premierpredictor",
   "imageClass": "premier-predictor-item",
+  "numImages": 9,
   "language": "Ionic | Kotlin",
   "title": "Premier Predictor 18/19",
   "text" : [

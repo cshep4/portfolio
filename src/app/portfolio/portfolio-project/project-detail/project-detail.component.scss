@@ -1,0 +1,179 @@
+.blog-detail .bg-struct, .project-detail .bg-struct {
+  height: 300px; }
+.blog-detail .blog-sec .mdl-card .mdl-card__title .main-blogpost-img.blog-img, .project-detail .blog-sec .mdl-card .mdl-card__title .main-blogpost-img.blog-img {
+  background-size: cover;
+  //background: url(../../../../assets/img/gallery5.jpg) center;
+}
+.blog-detail .blog-sec .mdl-card .mdl-card__title .main-blogpost-img.blog-img,
+.blog-detail .project-sec .mdl-card .mdl-card__title .main-blogpost-img.blog-img, .project-detail .blog-sec .mdl-card .mdl-card__title .main-blogpost-img.blog-img,
+.project-detail .project-sec .mdl-card .mdl-card__title .main-blogpost-img.blog-img {
+  height: 400px;
+  transform: scale(1); }
+.project-detail .blog-detail-list li {
+  margin-bottom: 8px;
+  list-style: disc inside;
+}
+.project-detail .user-comment {
+  margin-bottom: 30px;
+  padding-left: 80px;
+  position: relative; }
+.project-detail .user-image {
+  border-radius: 100%;
+  height: 60px;
+  overflow: hidden;
+  width: 60px;
+  position: absolute;
+  left: 0; }
+.project-detail .user-image img {
+  width: 100%;
+  height: auto; }
+.project-detail .comment-name {
+  display: block;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  color: #444; }
+.project-detail .comment-date {
+  display: inline-block;
+  font-size: 13px;
+  margin-bottom: 10px; }
+.project-detail .user-comment-reply {
+  position: relative;
+  padding-left: 80px;
+  margin-top: 30px;
+  display: block; }
+.project-detail a.reply {
+  margin-top: 15px;
+  padding-left: 30px;
+  font-size: 13px; }
+.project-detail iframe.player {
+  width: 100%;
+  height: 400px; }
+.project-detail iframe.player.audio-player {
+  height: 100px; }
+.project-detail .carousel-fade .carousel-inner .item,
+.project-detail .carousel-fade .carousel-inner .premier-predictor-item,
+.project-detail .carousel-fade .carousel-inner .portfolio-item,
+.project-detail .carousel-fade .carousel-inner .gyme-item,
+.project-detail .carousel-fade .carousel-inner .monster-attack-item,
+.project-detail .carousel-fade .carousel-inner .game-engine-item,
+.project-detail .carousel-fade .carousel-inner .wc-predictor-item {
+  transition-property: opacity;
+  -webkit-transition-property: opacity; }
+.project-detail .carousel-fade .carousel-inner .item,
+.project-detail .carousel-fade .carousel-inner .premier-predictor-item,
+.project-detail .carousel-fade .carousel-inner .portfolio-item,
+.project-detail .carousel-fade .carousel-inner .gyme-item,
+.project-detail .carousel-fade .carousel-inner .monster-attack-item,
+.project-detail .carousel-fade .carousel-inner .game-engine-item,
+.project-detail .carousel-fade .carousel-inner .wc-predictor-item,
+.project-detail .carousel-fade .carousel-inner .active.left,
+.project-detail .carousel-fade .carousel-inner .active.right {
+  opacity: 0; }
+.project-detail .carousel-fade .carousel-inner .active,
+.project-detail .carousel-fade .carousel-inner .next.left,
+.project-detail .carousel-fade .carousel-inner .prev.right {
+  opacity: 1; }
+.project-detail .carousel-fade .carousel-inner .next,
+.project-detail .carousel-fade .carousel-inner .prev,
+.project-detail .carousel-fade .carousel-inner .active.left,
+.project-detail .carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0); }
+.project-detail .carousel-fade .carousel-control {
+  z-index: 2; }
+.project-detail .carousel-fade .carousel-indicators {
+  z-index: 1; }
+.project-detail .carousel-fade .carousel-indicators li {
+  border-color: #01c853; }
+.project-detail .carousel-fade .carousel-indicators .active {
+  background-color: #01c853; }
+.project-detail .carousel,
+.project-detail .carousel-inner,
+.project-detail .carousel-inner .item,
+.project-detail .carousel-inner .premier-predictor-item,
+.project-detail .carousel-inner .portfolio-item,
+.project-detail .carousel-inner .gyme-item,
+.project-detail .carousel-inner .monster-attack-item,
+.project-detail .carousel-inner .game-engine-item,
+.project-detail .carousel-inner .wc-predictor-item {
+  height: 400px;
+  background-size: contain !important;
+  background-position: center !important; }
+
+.project-detail .carousel,
+.project-detail .carousel-inner,
+.project-detail .carousel-inner .item,
+.project-detail .carousel-inner .premier-predictor-item,
+.project-detail .carousel-inner .portfolio-item,
+.project-detail .carousel-inner .gyme-item,
+.project-detail .carousel-inner .monster-attack-item,
+.project-detail .carousel-inner .game-engine-item,
+.project-detail .carousel-inner .wc-predictor-item {
+  height: 500px;
+  background-repeat: no-repeat !important;}
+
+.grey-text {
+  color: #848484!important;
+}
+
+.label-green {
+  background-color: #01c853 !important;
+}
+
+.label-blue {
+  background-color: #2879ff !important;
+}
+
+.label-yellow {
+  background-color: #fec107 !important;
+}
+
+.label-red {
+  background-color: #ff3d00 !important;
+}
+
+.project-detail .premier-predictor-item:nth-child(1) {
+  background: url(../../../../assets/img/pp-home.png); }
+.project-detail .premier-predictor-item:nth-child(2) {
+  background: url(../../../../assets/img/pp-live-match.png); }
+.project-detail .premier-predictor-item:nth-child(3) {
+  background: url(../../../../assets/img/pp-stats.png); }
+.project-detail .premier-predictor-item:nth-child(4) {
+  background: url(../../../../assets/img/pp-prediction-summary.png); }
+.project-detail .premier-predictor-item:nth-child(5) {
+  background: url(../../../../assets/img/pp-commentary.png); }
+.project-detail .premier-predictor-item:nth-child(6) {
+  background: url(../../../../assets/img/pp-predictor.png); }
+.project-detail .premier-predictor-item:nth-child(7) {
+  background: url(../../../../assets/img/pp-standings.png); }
+.project-detail .premier-predictor-item:nth-child(8) {
+  background: url(../../../../assets/img/pp-mini-league.png); }
+.project-detail .premier-predictor-item:nth-child(9) {
+  background: url(../../../../assets/img/pp-leagues.png); }
+
+.project-detail .portfolio-item:nth-child(1) {
+  background: url(../../../../assets/img/portfolio-home.png);
+}
+
+.project-detail .gyme-item:nth-child(1) {
+  background: url(../../../../assets/img/gyme-dashboard.png); }
+.project-detail .gyme-item:nth-child(2) {
+  background: url(../../../../assets/img/gyme-workouts.png); }
+.project-detail .gyme-item:nth-child(3) {
+  background: url(../../../../assets/img/gyme-exercises.png); }
+
+.project-detail .monster-attack-item:nth-child(1) {
+  background: url(../../../../assets/img/monster-attack-1.png); }
+
+.project-detail .game-engine-item:nth-child(1) {
+  background: url(../../../../assets/img/gameEngine.png); }
+
+.project-detail .wc-predictor-item:nth-child(1) {
+  background: url(../../../../assets/img/wcp-home.png); }
+.project-detail .wc-predictor-item:nth-child(2) {
+  background: url(../../../../assets/img/wcp-predictor.jpg); }
+.project-detail .wc-predictor-item:nth-child(3) {
+  background: url(../../../../assets/img/wcp-standings.png); }
+.project-detail .wc-predictor-item:nth-child(4) {
+  background: url(../../../../assets/img/wcp-leagues.png); }

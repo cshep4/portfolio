@@ -17,6 +17,8 @@ export class ContactService {
 
       const body = this.createRequestBody(data);
 
+      console.log(body);
+
       const url = apiUrl + 'email';
 
       this.http.post(url, JSON.stringify(body), options).subscribe((res: any) => {
@@ -32,6 +34,28 @@ export class ContactService {
   }
 
   private createRequestBody(data) {
+    if (data.appName) {
+      return this.createAppFeedbackBody(data);
+    } else {
+      return this.createPortfolioContactBody(data);
+    }
+  }
+
+  private createAppFeedbackBody(data) {
+    return {
+      'method': 'SendEmail',
+      'params': `{
+          \"To\": \"chris_shepherd2@hotmail.com\",
+          \"From\": \"` + data.inputEmail + `\",
+          \"Sender\": \"` + data.inputName + `\",
+          \"Recipient\": \"Chris Shepherd\",
+          \"Subject\": \"` + data.appName + ` Feedback\",
+          \"Content\": \"` + data.inputMessage + `\"
+      }`
+    };
+  }
+
+  private createPortfolioContactBody(data) {
     return {
       'method': 'SendEmail',
       'params': `{

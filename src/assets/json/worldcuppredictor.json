@@ -1,6 +1,7 @@
 {
   "name": "worldcuppredictor",
   "imageClass": "wc-predictor-item",
+  "numImages": 4,
   "language": "Ionic | Kotlin",
   "title": "World Cup 2018 Predictor",
   "text" : [
@@ -47,7 +48,7 @@
     "region" : "United Kingdom"
   },{
     "name" : "tiddlesriddles",
-    "text" : "Really clearly laid out and a great fun idea to test your predictions against your friends!f",
+    "text" : "Really clearly laid out and a great fun idea to test your predictions against your friends!",
     "rating" : 5,
     "os" : "android",
     "region" : "United Kingdom"

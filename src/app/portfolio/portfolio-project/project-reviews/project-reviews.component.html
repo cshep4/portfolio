@@ -1,0 +1,23 @@
+<!--Reviews Sec-->
+<section id="references_sec" class="reference-sec">
+  <div class="row">
+    <div class="col-sm-12 mb-30">
+      <div class="mdl-card mdl-shadow--2dp border-top-yellow pa-35">
+        <owl-carousel [options]="carouselOpts">
+          <div class="item" *ngFor="let review of reviews">
+            <blockquote>"{{ review.text }}"</blockquote>
+            <span class="ref-name block mb-5 mt-20">
+                <i *ngFor="let i of getNumber(review.rating)" class="fas fa-star"></i>
+                <i *ngFor="let i of getNumber(5 - review.rating)" class="far fa-star"></i>
+              </span>
+            <span class="ref-name block mb-5">{{ review.name }}</span>
+            <span *ngIf="review.os === 'apple'" class="ref-desgn block"><i class="fab fa-apple"></i> Apple user - {{ review.region }}</span>
+            <span *ngIf="review.os === 'android'" class="ref-desgn block"><i class="fab fa-android"></i> Android user - {{ review.region }}</span>
+          </div>
+        </owl-carousel>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--/Reviews Sec-->
