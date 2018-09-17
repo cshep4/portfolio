@@ -19,9 +19,9 @@
     "C++",
     "OpenGL",
     "SFML",
-    "glew",
-    "glut",
-    "glm"
+    "Glew",
+    "Glut",
+    "GLM"
   ],
   "links": [{
     "icon": "zmdi zmdi-github",

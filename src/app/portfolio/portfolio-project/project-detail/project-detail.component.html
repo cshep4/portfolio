@@ -78,7 +78,7 @@
                   <span>game</span>
                 </li>
                 <li class="overflow-wrap">
-                  <span *ngFor="let item of project.techStack; let i=index" class="font-capitalize label-danger mr-5 mb-5" [ngClass]="getLabelColour(project.techStack, i)">{{ item }}</span>
+                  <span *ngFor="let item of project.techStack; let i=index" class="label-danger mr-5 mb-5" [ngClass]="getLabelColour(project.techStack, i)">{{ item }}</span>
                 </li>
               </ul>
             </div>
