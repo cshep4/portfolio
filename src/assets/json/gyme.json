@@ -4,6 +4,7 @@
   "numImages": 3,
   "language": "PHP | HTML/CSS | JS | Kotlin",
   "title": "Gyme",
+  "userCountUrl": "https://gyme2.herokuapp.com/user/count",
   "text" : [
     "Gym tracker website designed for weight-lifters to record their performance in the gym and view progress with various analytics.",
     "This is built using PHP with an MVC architecture in a framework I developed from scratch. The front-end is written in HTML/CSS using the W3.CSS responsive framework. Client-side JavaScript is also used for manipulating the DOM based on user interactions.",

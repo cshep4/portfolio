@@ -60,7 +60,7 @@
                 <li class="mb-10 font-capitalize">
                   <i class="zmdi zmdi-calendar-note pr-10"></i><span>{{ project.date }}</span>
                 </li>
-                <li *ngIf="project.userCount" class="mb-10 font-capitalize">
+                <li *ngIf="project.userCount || project.userCountUrl" class="mb-10 font-capitalize">
                   <i class="zmdi zmdi-accounts-alt pr-10"></i>
                   <span *ngIf="userCount" tooltip="Registered Users">{{ userCount }}</span>
                   <span *ngIf="!userCount"><fa name="sync" animation="spin"></fa></span>

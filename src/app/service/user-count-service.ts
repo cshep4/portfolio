@@ -27,6 +27,21 @@ export class UserCountService {
     });
   }
 
+  getUserCountByUrl(url) {
+    return new Promise((resolve, reject) => {
+      const headers = new HttpHeaders()
+        .set('Content-Type', 'application/json');
+
+      const options: RequestOptions = { headers: headers, observe: 'response' };
+
+      this.http.get(url, options).subscribe((res: any) => {
+        resolve(res);
+      }, (err) => {
+        reject(err);
+      });
+    });
+  }
+
   private createRequestBody(appName) {
     return {
       'method': 'GetUserCount',

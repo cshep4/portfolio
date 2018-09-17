@@ -22,6 +22,13 @@ export class ProjectDetailComponent implements OnInit {
         this.userCount = 'Could not retrieve user count, please try again';
       });
     }
+    if (this.project.userCountUrl) {
+      this.userCountService.getUserCountByUrl(this.project.userCountUrl).then((res: any) => {
+        this.userCount = res.body;
+      }, err => {
+        this.userCount = 'Could not retrieve user count, please try again';
+      });
+    }
   }
 
   nagivate(url) {

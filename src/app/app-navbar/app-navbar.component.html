@@ -21,9 +21,19 @@
         <a *ngIf="!isNotHomePage()" class="mdl-navigation__link" href="#education_sec" data-scroll>education</a>
         <a *ngIf="isNotHomePage()" class="mdl-navigation__link" [routerLink]="['']" fragment="education_sec" data-scroll>education</a>
       </li>
-      <li>
-        <a *ngIf="!isNotHomePage()" class="mdl-navigation__link" href="#blog_sec" data-scroll>portfolio</a>
-        <a *ngIf="isNotHomePage()" class="mdl-navigation__link" [routerLink]="['']" fragment="blog_sec" data-scroll>portfolio</a>
+      <!--<li>-->
+        <!--<a *ngIf="!isNotHomePage()" class="mdl-navigation__link" href="#blog_sec" data-scroll>portfolio</a>-->
+        <!--<a *ngIf="isNotHomePage()" class="mdl-navigation__link" [routerLink]="['']" fragment="blog_sec" data-scroll>portfolio</a>-->
+      <!--</li>-->
+      <li><span id="blog_drp" class="mdl-navigation__link">portfolio</span>
+        <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" data-mdl-for="blog_drp">
+          <li class="mdl-menu__item"><a href="/portfolio/portfolio">Portfolio</a></li>
+          <li class="mdl-menu__item"><a href="/portfolio/premierpredictor">Premier Predictor</a></li>
+          <li class="mdl-menu__item"><a href="/portfolio/worldcuppredictor">World Cup Predictor</a></li>
+          <li class="mdl-menu__item"><a href="/portfolio/monsterattack">Monster Attack</a></li>
+          <li class="mdl-menu__item"><a href="/portfolio/gyme">Gyme</a></li>
+          <li class="mdl-menu__item"><a href="/portfolio/3dgameengine">3D Game Engine</a></li>
+        </ul>
       </li>
       <li>
         <a *ngIf="!isNotHomePage()" class="mdl-navigation__link" href="#achievements_sec" data-scroll>achievements</a>
@@ -134,15 +144,29 @@
             <span class="font-capitalize">education</span>
           </a>
         </li>
+        <!--<li>-->
+          <!--<a *ngIf="!isNotHomePage()" class="mdl-navigation__link border-top-sep"  href="#blog_sec" data-scroll>-->
+            <!--<i class="zmdi zmdi-case pr-15"></i>-->
+            <!--<span class="font-capitalize">portfolio</span>-->
+          <!--</a>-->
+          <!--<a *ngIf="isNotHomePage()" class="mdl-navigation__link border-top-sep"  [routerLink]="['']" fragment="blog_sec" data-scroll>-->
+            <!--<i class="zmdi zmdi-case pr-15"></i>-->
+            <!--<span class="font-capitalize">portfolio</span>-->
+          <!--</a>-->
+        <!--</li>-->
         <li>
-          <a *ngIf="!isNotHomePage()" class="mdl-navigation__link border-top-sep"  href="#blog_sec" data-scroll>
+          <a class="mdl-navigation__link border-top-sep" href="javascript:void(0);" data-toggle="collapse" data-target="#blog_dr">
             <i class="zmdi zmdi-case pr-15"></i>
             <span class="font-capitalize">portfolio</span>
           </a>
-          <a *ngIf="isNotHomePage()" class="mdl-navigation__link border-top-sep"  [routerLink]="['']" fragment="blog_sec" data-scroll>
-            <i class="zmdi zmdi-case pr-15"></i>
-            <span class="font-capitalize">portfolio</span>
-          </a>
+          <ul id="blog_dr" class="collapse collapse-level-1">
+            <li><a class="mdl-navigation__link border-top-sep" href="/portfolio/portfolio">Portfolio</a></li>
+            <li><a class="mdl-navigation__link border-top-sep" href="/portfolio/premierpredictor">Premier Predictor</a></li>
+            <li><a class="mdl-navigation__link border-top-sep" href="/portfolio/worldcuppredictor">World Cup Predictor</a></li>
+            <li><a class="mdl-navigation__link border-top-sep" href="/portfolio/monsterattack">Monster Attack</a></li>
+            <li><a class="mdl-navigation__link border-top-sep" href="/portfolio/gyme">Gyme</a></li>
+            <li><a class="mdl-navigation__link border-top-sep" href="/portfolio/3dgameengine">3D Game Engine</a></li>
+          </ul>
         </li>
         <li>
           <a *ngIf="!isNotHomePage()" class="mdl-navigation__link border-top-sep"  href="#achievements_sec" data-scroll>

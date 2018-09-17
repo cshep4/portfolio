@@ -5,12 +5,13 @@
   "language": "Java",
   "title": "Monster Attack",
   "text" : [
-    "Premier League predictor app designed for users to correctly predict all the scores for the 18/19 season to score points, as well as creating mini-leagues to compete with friends. Users can also check live match scores and stats.",
-    "This is built using the Ionic framework, with back-end APIs written in Kotlin using Spring Boot. The back-end is fully unit tested using TDD and is currently being hosted on Heroku.",
-    "The database used to store user data and match results is using PostgreSQL. A noSQL DynamoDB database is used to store the live match stat data.",
-    "Websockets are used to send the live match data automatically to the user's device when the match is in-play. Spring Boot Scheduler is used to automatically check if games are in-play and to retrieve the live data.",
-    "A scheduled AWS Lambda function is also used to automatically call an API to update user scores. All match data is retrieved from an external API, the results are then used to compare against each user's predictions to assign points.",
-    "The app uses adverts to generate revenue. The adverts are provided by Google's Admob service."
+    "Shoot 'Em Up mobile game which is based on the theme 'Mutation'. This was originally developed during my final year of University, but has since been redeveloped using the LibGDX engine and Java 8 functions.",
+    "As the original version of the app was written using only Java 7, I wanted to incorporate Java 8 features such as functional programming and lambda expressions to clean up the code and improve readability.",
+    "The app is fully unit tested. Mockito was used for mocking objects, however due to the implementation of some of the LibGDX features, Powermock was also needed for mocking static LibGDX methods.",
+    "The user can control the player movement by swiping and can shoot by pressing the Shoot button. Enemies will continuously spawn from the right hand side of the screen and will run towards the other side. The aim of the game is to kill each enemy before they get to the other side or collide with the player.",
+    "As more enemies are killed the difficultly will get harder. As the game is based on mutation, enemies will change and gain more abilities. More powerful enemies will spawn too.",
+    "There is a total of ten different types of enemies of differing abilities, some of which will produce other enemies. During the game pickups will also spawn in random places, these include extra lives, shields, extra bullets or bombs.",
+    "Unfortunately due to the World Cup and Premier League Predictor apps, I have not had time to fully finish the app and release it, although I am planning on this in the near future."
   ],
   "date" : "Mar 2018",
   "category" : "game",
@@ -18,7 +19,9 @@
     "Java",
     "Android",
     "LibGDX",
-    "Mockito"
+    "Lombok",
+    "Mockito",
+    "Powermock"
   ],
   "links": [{
     "icon": "zmdi zmdi-github",

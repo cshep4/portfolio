@@ -4,8 +4,6 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import {AppNavbarComponent} from './app-navbar/app-navbar.component';
 import {PreloaderComponent} from './preloader/preloader.component';
-import {TopHeaderComponent} from './top-header/top-header.component';
-import {LeftSidebarComponent} from './left-sidebar/left-sidebar.component';
 import {routing} from './app.routing';
 import {HomeModule} from './home/home.module';
 import {FooterComponent} from './footer/footer.component';
@@ -18,8 +16,6 @@ import {UserCountService} from './service/user-count-service';
 @NgModule({
   declarations: [
     PreloaderComponent,
-    TopHeaderComponent,
-    LeftSidebarComponent,
     AppNavbarComponent,
     AppComponent,
     FooterComponent
