@@ -5,12 +5,11 @@
   "language" : "Angular | Go",
   "title" : "Portfolio Website",
   "text" : [
-    "Premier League predictor app designed for users to correctly predict all the scores for the 18/19 season to score points, as well as creating mini-leagues to compete with friends. Users can also check live match scores and stats.",
-    "This is built using the Ionic framework, with back-end APIs written in Kotlin using Spring Boot. The back-end is fully unit tested using TDD and is currently being hosted on Heroku.",
-    "The database used to store user data and match results is using PostgreSQL. A noSQL DynamoDB database is used to store the live match stat data.",
-    "Websockets are used to send the live match data automatically to the user's device when the match is in-play. Spring Boot Scheduler is used to automatically check if games are in-play and to retrieve the live data.",
-    "A scheduled AWS Lambda function is also used to automatically call an API to update user scores. All match data is retrieved from an external API, the results are then used to compare against each user's predictions to assign points.",
-    "The app uses adverts to generate revenue. The adverts are provided by Google's Admob service."
+    "This is a portfolio website I have created to showcase my personal projects and experience in my career so far. This site is designed to clearly display my abilities as a Software Developer, along with my achievements and projects to date.",
+    "Originally started with a template I found online which was written in Vanilla HTML/CSS/JavaScript using Bootstrap. I then redeveloped it using Angular 6 and built upon it based on my requirements.",
+    "There is a small serverless back-end written in Go and hosted using AWS Lambda. This is used for sending emails using the Contact forms, as well as retrieving the number of registered users for certain applications in the Portfolio section.",
+    "I have not previously had any experience with Go, however after hearing about its benefits and performance speeds I decided this would be a good language to learn, with this site being an ideal starting point.",
+    "When creating the back-end I also had a decision to make regarding hosting. I decided on a serverless architecture hosted on AWS Lambda due to its very low running costs, along with the opportunity to learn another new skill."
   ],
   "date" : "Sep 2018",
   "website" : "https://www.chrisshepherd.io",
@@ -22,7 +21,8 @@
     "Sass",
     "Bootstrap",
     "TypeScript",
-    "AWS Lambda"
+    "AWS Lambda",
+    "Serverless"
   ],
   "links": [{
       "icon": "zmdi zmdi-github",

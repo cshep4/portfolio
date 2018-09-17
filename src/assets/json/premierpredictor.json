@@ -27,6 +27,7 @@
     "TypeScript",
     "PostgreSQL",
     "DynamoDB",
+    "Mockito",
     "Firebase",
     "AWS Lambda",
     "Heroku",

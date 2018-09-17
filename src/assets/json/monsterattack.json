@@ -17,7 +17,8 @@
   "techStack" : [
     "Java",
     "Android",
-    "LibGDX"
+    "LibGDX",
+    "Mockito"
   ],
   "links": [{
     "icon": "zmdi zmdi-github",
