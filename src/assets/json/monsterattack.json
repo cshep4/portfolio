@@ -18,6 +18,7 @@
   "techStack" : [
     "Java",
     "Android",
+    "iOS",
     "LibGDX",
     "Lombok",
     "Mockito",
