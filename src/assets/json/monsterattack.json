@@ -11,7 +11,7 @@
     "The user can control the player movement by swiping and can shoot by pressing the Shoot button. Enemies will continuously spawn from the right hand side of the screen and will run towards the other side. The aim of the game is to kill each enemy before they get to the other side or collide with the player.",
     "As more enemies are killed the difficultly will get harder. As the game is based on mutation, enemies will change and gain more abilities. More powerful enemies will spawn too.",
     "There is a total of ten different types of enemies of differing abilities, some of which will produce other enemies. During the game pickups will also spawn in random places, these include extra lives, shields, extra bullets or bombs.",
-    "Unfortunately due to the World Cup and Premier League Predictor apps, I have not had time to fully finish the app and release it, although I am planning on this in the near future."
+    "Unfortunately due to the World Cup and Premier League Predictor apps, I have not had time to fully finish the app and release it, although I am planning on doing this in the near future."
   ],
   "date" : "Mar 2018",
   "category" : "game",
