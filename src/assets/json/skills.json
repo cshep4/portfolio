@@ -14,13 +14,13 @@
           "colour": "green-bar"
         },
         {
-          "name": "PHP",
+          "name": "Golang",
           "ability": "75",
           "colour": "yellow-bar"
         },
         {
-          "name": "Go",
-          "ability": "50",
+          "name": "PHP",
+          "ability": "75",
           "colour": "red-bar"
         }
       ]

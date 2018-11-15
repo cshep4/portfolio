@@ -91,7 +91,7 @@
   {
     "name": "gyme",
     "imageClass": "gyme-thumb",
-    "language": "PHP | HTML/CSS | JS | Kotlin",
+    "language": "PHP | HTML/CSS | JS | Kotlin | Go",
     "title": "Gyme",
     "icon": "zmdi zmdi-desktop-mac",
     "colour": "bg-red",
@@ -109,8 +109,8 @@
     },
     {
       "icon": "zmdi zmdi-github",
-      "url": "https://github.com/cshep4/gyme_v2",
-      "text": "Rewritten APIs"
+      "url": "https://github.com/cshep4/gyme-serverless",
+      "text": "Serverless"
     }]
   },
   {

@@ -7,26 +7,32 @@
   "userCountUrl": "https://6azvi2d91f.execute-api.us-east-1.amazonaws.com/dev/user-count/",
   "text" : [
     "Gym tracker website designed for weight-lifters to record their performance in the gym and view progress with various analytics.",
+    "Users can enter their workout performance on the Workouts page, then can view various analytics based on the corresponding data. Analytics include attendance data, frequency of muscle groups and average weight. Workout suggestions are also created based on past visits.",
     "This is built using PHP with an MVC architecture in a framework I developed from scratch. The front-end is written in HTML/CSS using the W3.CSS responsive framework. Client-side JavaScript is also used for manipulating the DOM based on user interactions.",
-    "I have recently redeveloped some of the back-end functionality using Kotlin with Spring Boot. This part of the back-end is fully unit tested using TDD. The decision to redevelop this functionality was due to performance issues.",
-    "Spring Boot and Kotlin were used as I plan to develop an accompanying mobile app which will use the same Rest APIs.",
-    "The database used in the application is MySQL, which is hosted using AWS Relational Database Service. With both the main PHP application and the new Spring Boot APIs hosted on Heroku.",
-    "Users can enter their workout performance on the Workouts page, then can view various analytics based on the corresponding data. Analytics include attendance data, frequency of muscle groups and average weight. Workout suggestions are also created based on past visits."
+    "I am currently redeveloping some of the back-end functionality using a Serverless architecture. This part of the back-end is fully unit tested using TDD. The decision to redevelop this functionality was due to code quality and performance issues.",
+    "The Serverless back-end is written in multiple languages, such as Kotlin using Spring Boot, Node.js and Golang. I have used different languages so I can get the benefits from each.",
+    "Kotlin was used for its functional aspects, as it is very readable and makes it very easy to map data from one format to another. Node.js is used for authentication due to its ease of use when working with JWTs. Golang is used because of its performance benefits.",
+    "I plan to develop an accompanying mobile app which will use the same Rest APIs from the Serverless back-end. As the main PHP codebase was developed in an MVC architecture, the back-end can also be reused for the mobile app with minimal adjustments.",
+    "The database used in the application is MySQL, which is hosted using AWS Relational Database Service. With both the main PHP application and the new Serverless back-end using this."
   ],
   "date" : "Aug 2017",
   "website" : "https://www.gyme.co.uk",
-  "category" : "wesbite",
+  "category" : "website",
   "techStack" : [
     "PHP",
+    "Go",
     "Kotlin",
     "Spring Boot",
+    "Node.js",
     "JavaScript",
     "HTML",
     "CSS",
     "W3.CSS",
     "MySQL",
     "AWS RDS",
-    "Heroku"
+    "Heroku",
+    "AWS Lambda",
+    "Serverless"
   ],
   "links": [{
       "icon": "zmdi zmdi-github",
@@ -35,8 +41,8 @@
     },
     {
     "icon": "zmdi zmdi-github",
-    "url": "https://github.com/cshep4/gyme_v2",
-    "text": "Rewritten APIs"
+    "url": "https://github.com/cshep4/gyme-serverless",
+    "text": "Serverless"
     }
   ],
   "previous" : {
