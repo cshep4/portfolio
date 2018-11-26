@@ -46,6 +46,12 @@
     "text": "Front-end"
   }],
   "reviews" : [{
+    "name" : "Reg Shaw",
+    "text" : "A simple, great app for creating a league to have fun predicting premier league results.\n\nGreat support as well - a problem in accessing the app was resolved very quickly by the developer, who responded very promptly to emails. Recommended.",
+    "rating" : 5,
+    "os" : "apple",
+    "region" : "United Kingdom"
+  },{
     "name" : "Jmini45",
     "text" : "Now that the BBC predictor game is gone I looked for another app for predictor and I must say that I am impressed with this app... great UI and scoring system ... everything seems to be working nicely also",
     "rating" : 5,

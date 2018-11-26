@@ -66,8 +66,8 @@
           "colour": "green-bar"
         },
         {
-          "name": "Firebase",
-          "ability": "70",
+          "name": "Flutter",
+          "ability": "50",
           "colour": "yellow-bar"
         }
       ]

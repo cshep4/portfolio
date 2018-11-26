@@ -2,7 +2,7 @@
   "name": "gyme",
   "imageClass" : "gyme-item",
   "numImages": 3,
-  "language": "PHP | HTML/CSS | JS | Kotlin",
+  "language": "PHP | HTML/CSS | JS | Kotlin | Go",
   "title": "Gyme",
   "userCountUrl": "https://6azvi2d91f.execute-api.us-east-1.amazonaws.com/dev/user-count/",
   "text" : [
