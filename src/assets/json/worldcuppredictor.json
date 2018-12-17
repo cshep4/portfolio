@@ -44,37 +44,37 @@
     }],
   "reviews" : [{
     "name" : "ColinFor",
-    "text" : "Brilliant App. You thought of everything and there were no glitches. Really enjoyed it. Well done!",
+    "text" : ["Brilliant App. You thought of everything and there were no glitches. Really enjoyed it. Well done!"],
     "rating" : 5,
     "os" : "apple",
     "region" : "United Kingdom"
   },{
     "name" : "tiddlesriddles",
-    "text" : "Really clearly laid out and a great fun idea to test your predictions against your friends!",
+    "text" : ["Really clearly laid out and a great fun idea to test your predictions against your friends!"],
     "rating" : 5,
     "os" : "android",
     "region" : "United Kingdom"
   },{
     "name" : "ncw____",
-    "text" : "Love it - dead simple",
+    "text" : ["Love it - dead simple"],
     "rating" : 5,
     "os" : "apple",
     "region" : "United States"
   },{
     "name" : "Declan Shepherd",
-    "text" : "As beautiful as the game itself",
+    "text" : ["As beautiful as the game itself"],
     "rating" : 5,
     "os" : "android",
     "region" : "United Kingdom"
   },{
     "name" : "T1nk the 1st",
-    "text" : "Great app for predicting scores for world cup and playing against friends",
+    "text" : ["Great app for predicting scores for world cup and playing against friends"],
     "rating" : 5,
     "os" : "apple",
     "region" : "United Kingdom"
   },{
     "name" : "Yusuf Sader",
-    "text" : "Fantastic App! Great for having sweepstakes and the likes with work colleagues/mates. All bugs have been fixed too :D",
+    "text" : ["Fantastic App! Great for having sweepstakes and the likes with work colleagues/mates. All bugs have been fixed too :D"],
     "rating" : 5,
     "os" : "android",
     "region" : "United Kingdom"

@@ -5,7 +5,9 @@
       <div class="mdl-card mdl-shadow--2dp border-top-yellow pa-35">
         <owl-carousel [options]="carouselOpts">
           <div class="item" *ngFor="let review of reviews">
-            <blockquote>"{{ review.text }}"</blockquote>
+            <blockquote *ngFor="let text of review.text; let i=index;">
+              <span *ngIf="i === 0">"</span>{{ text }}<span *ngIf="i === review.text.length-1">"</span>
+            </blockquote>
             <span class="ref-name block mb-5 mt-20">
                 <i *ngFor="let i of getNumber(review.rating)" class="fas fa-star"></i>
                 <i *ngFor="let i of getNumber(5 - review.rating)" class="far fa-star"></i>
