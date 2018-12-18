@@ -1,28 +1,31 @@
-[{
-  "name": "portfolio",
-  "imageClass": "portfolio-thumb",
-  "language": "Angular | Go",
-  "title": "Portfolio Website",
-  "icon": "zmdi zmdi-desktop-mac",
-  "colour": "bg-yellow",
-  "text": "This portfolio website to showcase my personal projects and experience in my career so far. With a small back-end for email.",
-  "date": "09/18",
-  "links": [{
-    "icon": "zmdi zmdi-eye",
-    "url": "https://www.chrisshepherd.io/",
-    "text": "View site"
-  },
+[
   {
-    "icon": "zmdi zmdi-github",
-    "url": "https://github.com/cshep4/portfolio-be-api",
-    "text": "Back-end"
+    "name": "portfolio",
+    "imageClass": "portfolio-thumb",
+    "language": "Angular | Go",
+    "title": "Portfolio Website",
+    "icon": "zmdi zmdi-desktop-mac",
+    "colour": "bg-yellow",
+    "text": "This portfolio website to showcase my personal projects and experience in my career so far. With a small back-end for email.",
+    "date": "09/18",
+    "links": [
+      {
+        "icon": "zmdi zmdi-eye",
+        "url": "https://www.chrisshepherd.io/",
+        "text": "View site"
+      },
+      {
+        "icon": "zmdi zmdi-github",
+        "url": "https://github.com/cshep4/portfolio-be-api",
+        "text": "Back-end"
+      },
+      {
+        "icon": "zmdi zmdi-github",
+        "url": "https://github.com/cshep4/portfolio",
+        "text": "Front-end"
+      }
+    ]
   },
-  {
-    "icon": "zmdi zmdi-github",
-    "url": "https://github.com/cshep4/portfolio",
-    "text": "Front-end"
-  }]
-},
   {
     "name": "premierpredictor",
     "imageClass": "premier-predictor-thumb",
@@ -32,26 +35,33 @@
     "colour": "bg-blue",
     "text": "Mobile app for users to predict scores for the Premier League and create mini-leagues to compete against friends.",
     "date": "08/18",
-    "links": [{
-      "icon": "fab fa-android",
-      "url": "https://play.google.com/store/apps/details?id=com.cshep4.premierpredictor",
-      "text": "Google Play Store"
-    },
-    {
-      "icon": "fab fa-apple",
-      "url": "https://itunes.apple.com/us/app/premier-predictor-18-19/id1418486863?ls=1&mt=8",
-      "text": "Apple App Store"
-    },
-    {
-      "icon": "zmdi zmdi-github",
-      "url": "https://github.com/cshep4/premierpredictor",
-      "text": "Back-end"
-    },
-    {
-      "icon": "zmdi zmdi-github",
-      "url": "https://github.com/cshep4/premier-predictor",
-      "text": "Front-end"
-    }]
+    "links": [
+      {
+        "icon": "fab fa-android",
+        "url": "https://play.google.com/store/apps/details?id=com.cshep4.premierpredictor",
+        "text": "Google Play Store"
+      },
+      {
+        "icon": "fab fa-apple",
+        "url": "https://itunes.apple.com/us/app/premier-predictor-18-19/id1418486863?ls=1&mt=8",
+        "text": "Apple App Store"
+      },
+      {
+        "icon": "zmdi zmdi-github",
+        "url": "https://github.com/cshep4/premier-predictor-functions",
+        "text": "Serverless"
+      },
+      {
+        "icon": "zmdi zmdi-github",
+        "url": "https://github.com/cshep4/premierpredictor",
+        "text": "Back-end"
+      },
+      {
+        "icon": "zmdi zmdi-github",
+        "url": "https://github.com/cshep4/premier-predictor",
+        "text": "Front-end"
+      }
+    ]
   },
   {
     "name": "worldcuppredictor",
@@ -62,16 +72,18 @@
     "colour": "bg-red",
     "text": "Mobile app for users to predict match scores for the 2018 World Cup and create mini-leagues to compete against friends.",
     "date": "06/18",
-    "links": [{
-      "icon": "zmdi zmdi-github",
-      "url": "https://github.com/cshep4/wcpredictor",
-      "text": "Back-end"
-    },
-    {
-      "icon": "zmdi zmdi-github",
-      "url": "https://github.com/cshep4/world-cup-predictor",
-      "text": "Front-end"
-    }]
+    "links": [
+      {
+        "icon": "zmdi zmdi-github",
+        "url": "https://github.com/cshep4/wcpredictor",
+        "text": "Back-end"
+      },
+      {
+        "icon": "zmdi zmdi-github",
+        "url": "https://github.com/cshep4/world-cup-predictor",
+        "text": "Front-end"
+      }
+    ]
   },
   {
     "name": "monsterattack",
@@ -82,36 +94,40 @@
     "colour": "bg-green",
     "text": "Shoot 'Em Up mobile game with the theme 'Mutation' developed whilst at University, redeveloped with the LibGDX engine.",
     "date": "03/18",
-    "links": [{
-      "icon": "zmdi zmdi-github",
-      "url": "https://github.com/cshep4/MonsterAttack_LibGDX",
-      "text": "Git Repo"
-    }]
+    "links": [
+      {
+        "icon": "zmdi zmdi-github",
+        "url": "https://github.com/cshep4/MonsterAttack_LibGDX",
+        "text": "Git Repo"
+      }
+    ]
   },
   {
     "name": "gyme",
     "imageClass": "gyme-thumb",
-    "language": "PHP | HTML/CSS | JS | Kotlin | Go",
+    "language": "PHP | HTML | JS | Kotlin | Go",
     "title": "Gyme",
     "icon": "zmdi zmdi-desktop-mac",
     "colour": "bg-red",
     "text": "Responsive web application for users to track their performance in the gym and view progress with various analytics.",
     "date": "08/17",
-    "links": [{
-      "icon": "zmdi zmdi-eye",
-      "url": "https://www.gyme.co.uk/",
-      "text": "View site"
-    },
-    {
-      "icon": "zmdi zmdi-github",
-      "url": "https://github.com/cshep4/gyme",
-      "text": "Main Codebase"
-    },
-    {
-      "icon": "zmdi zmdi-github",
-      "url": "https://github.com/cshep4/gyme-serverless",
-      "text": "Serverless"
-    }]
+    "links": [
+      {
+        "icon": "zmdi zmdi-eye",
+        "url": "https://www.gyme.co.uk/",
+        "text": "View site"
+      },
+      {
+        "icon": "zmdi zmdi-github",
+        "url": "https://github.com/cshep4/gyme",
+        "text": "Main Codebase"
+      },
+      {
+        "icon": "zmdi zmdi-github",
+        "url": "https://github.com/cshep4/gyme-serverless",
+        "text": "Serverless"
+      }
+    ]
   },
   {
     "name": "3dgameengine",
@@ -122,10 +138,12 @@
     "colour": "bg-yellow",
     "text": "3D game engine developed from scratch during my final year of University, it was written in C++ using OpenGL.",
     "date": "01/15",
-    "links": [{
-      "icon": "zmdi zmdi-github",
-      "url": "https://github.com/cshep4/game-engine",
-      "text": "Git Repo"
-    }]
+    "links": [
+      {
+        "icon": "zmdi zmdi-github",
+        "url": "https://github.com/cshep4/game-engine",
+        "text": "Git Repo"
+      }
+    ]
   }
 ]
