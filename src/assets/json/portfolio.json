@@ -40,5 +40,9 @@
   "previous" : {
     "name": "premierpredictor",
     "title": "Premier Predictor 18/19"
+  },
+  "next": {
+    "name": "kripto",
+    "title": "Kripto ₿"
   }
 }

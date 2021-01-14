@@ -1,0 +1,36 @@
+{
+  "name": "kripto",
+  "imageClass": "kripto-item",
+  "numImages": 2,
+  "language": "Go | Python | Kotlin",
+  "title": "Kripto ₿ Trading Platform",
+  "text": [
+    "Kripto ₿ trading platform, periodically checks the BTC-GBP exchange rate using Coinbase APIs and makes intelligent decisions whether to buy/sell Bitcoin. Executes trades using Coinbase Pro.",
+    "I decided to build this with a friend after the Bitcoin halving in May 2020 in the hope that the value of Bitcoin would increase dramatically.",
+    "The rate-retriever function runs on a schedule every minute to retrieve the current BTC-GBP price from Coinbase. This will then publish a 'RateUpdate' event to SNS which an SQS queue is subcribed to, whose messages are consumed to store the rate in Mongo.",
+    "The trade-decider function runs on a schedule every two minutes, this get's the previous month's stored rates via the data-reader function and makes an intelligent decision whether or not to buy/sell bitcoin.",
+    "If the trade-decider makes the decision to trade, it invokes the trader function which will then call Coinbase Pro to carry out a market order. It will then emit a `Trade` event to SNS which two SQS queues, StoreTrade and EmailReceipt are subscribed to. The consumer functions of these queues will store the trade in Mongo and send an email receipt respectively."
+  ],
+  "date": "Jun 2020",
+  "category": "serverless",
+  "techStack": [
+    "Go",
+    "Python",
+    "Kotlin",
+    "AWS Lambda",
+    "Serverless",
+    "SNS",
+    "SQS",
+    "MongoDB"
+  ],
+  "links": [
+    {
+      "icon": "zmdi zmdi-github",
+      "url": "https://github.com/cshep4/kripto"
+    }
+  ],
+  "previous": {
+    "name": "portfolio",
+    "title": "Portfolio Website"
+  }
+}

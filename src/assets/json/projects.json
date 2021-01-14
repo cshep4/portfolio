@@ -1,5 +1,21 @@
 [
   {
+    "name": "kripto",
+    "imageClass": "kripto-thumb",
+    "language": "Go | Python | Kotlin",
+    "title": "Kripto",
+    "icon": "icon-lambda",
+    "colour": "bg-blue",
+    "text": "Periodically checks the BTC-GBP exchange rate using Coinbase APIs and makes intelligent decisions whether to buy/sell Bitcoin.",
+    "date": "06/20",
+    "links": [
+      {
+        "icon": "zmdi zmdi-github",
+        "url": "https://github.com/cshep4/kripto"
+      }
+    ]
+  },
+  {
     "name": "portfolio",
     "imageClass": "portfolio-thumb",
     "language": "Angular | Go",
@@ -36,11 +52,6 @@
     "text": "Mobile app for users to predict scores for the Premier League and create mini-leagues to compete against friends.",
     "date": "08/18",
     "links": [
-      {
-        "icon": "fab fa-apple",
-        "url": "https://itunes.apple.com/us/app/premier-predictor-18-19/id1418486863?ls=1&mt=8",
-        "text": "Apple App Store"
-      },
       {
         "icon": "zmdi zmdi-github",
         "url": "https://github.com/cshep4/premier-predictor-functions"

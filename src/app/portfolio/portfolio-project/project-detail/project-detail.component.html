@@ -73,6 +73,10 @@
                   <i class="zmdi zmdi-desktop-mac pr-10"></i>
                   <span>website</span>
                 </li>
+                <li *ngIf="project.category === 'serverless'" class="mb-10 font-capitalize">
+                  <i class="icon-lambda"></i>
+                  <span> serverless</span>
+                </li>
                 <li *ngIf="project.category === 'game'" class="mb-10 font-capitalize">
                   <i class="zmdi zmdi-gamepad pr-10"></i>
                   <span>game</span>

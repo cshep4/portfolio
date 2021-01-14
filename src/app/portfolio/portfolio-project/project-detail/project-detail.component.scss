@@ -59,6 +59,7 @@
 .project-detail .carousel-fade .carousel-inner .wc-predictor-item {
   transition-property: opacity;
   -webkit-transition-property: opacity; }
+.project-detail .carousel-fade .carousel-inner .kripto,
 .project-detail .carousel-fade .carousel-inner .item,
 .project-detail .carousel-fade .carousel-inner .premier-predictor-item,
 .project-detail .carousel-fade .carousel-inner .portfolio-item,
@@ -132,6 +133,11 @@
 .label-red {
   background-color: #ff3d00 !important;
 }
+
+.project-detail .kripto-item:nth-child(1) {
+  background: url(../../../../assets/img/kripto.png); }
+.project-detail .kripto-item:nth-child(2) {
+  background: url(../../../../assets/img/kripto-email.png); }
 
 .project-detail .premier-predictor-item:nth-child(1) {
   background: url(../../../../assets/img/pp-home.png); }

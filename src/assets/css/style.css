@@ -1600,6 +1600,8 @@ blockquote {
       background: transparent url("../img/gyme-thumb.png") repeat scroll center center/cover; }
     .blog-sec .mdl-card .mdl-card__title .blog-img.portfolio-thumb {
       background: transparent url("../img/portfolio-thumb.png") repeat scroll center center/cover; }
+    .blog-sec .mdl-card .mdl-card__title .blog-img.kripto-thumb {
+      background: transparent url("../img/kripto-thumb.png") repeat scroll center center/cover; }
     .blog-sec .mdl-card .mdl-card__title .blog-img.monster-attack-thumb {
       background: transparent url("../img/monster-attack-thumb.png") repeat scroll center center/cover; }
   .blog-sec .mdl-card .mdl-card__title .blog-img.premier-predictor-thumb {

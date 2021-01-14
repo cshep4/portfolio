@@ -12,6 +12,7 @@
     "A scheduled AWS Lambda function is also used to automatically call an API to update user scores. All match data is retrieved from an external API, the results are then used to compare against each user's predictions to assign points.",
     "The app uses adverts to generate revenue. The adverts are provided by Google's Admob service."
   ],
+  "note" : "Please note, I have decided to take this app down from the app stores whilst I rebuild the mobile app using Flutter. I am hoping to have completed this before EURO 2021.",
   "date": "Aug 2018",
   "android": "https://play.google.com/store/apps/details?id=com.cshep4.premierpredictor",
   "apple": "https://itunes.apple.com/us/app/premier-predictor-18-19/id1418486863?ls=1&mt=8",
