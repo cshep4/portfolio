@@ -3,26 +3,31 @@
   <h2 class="mb-30">portfolio</h2>
   <div class="row">
     <div class="col-sm-4 mb-30">
+      <app-project *ngIf="kripto" [project]="kripto"></app-project>
+    </div>
+    <div class="col-sm-4 mb-30">
       <app-project *ngIf="portfolioWebsite" [project]="portfolioWebsite"></app-project>
     </div>
     <div class="col-sm-4 mb-30">
       <app-project *ngIf="premierPredictor" [project]="premierPredictor"></app-project>
     </div>
+  </div>
+  <div class="row">
     <div class="col-sm-4 mb-30">
       <app-project *ngIf="worldCupPredictor" [project]="worldCupPredictor"></app-project>
     </div>
-  </div>
-  <div class="row">
     <div class="col-sm-4 mb-30">
       <app-project *ngIf="monsterAttack" [project]="monsterAttack"></app-project>
     </div>
     <div class="col-sm-4 mb-30">
       <app-project *ngIf="gyme" [project]="gyme"></app-project>
     </div>
-    <div class="col-sm-4 mb-30">
-      <app-project *ngIf="gameEngine" [project]="gameEngine"></app-project>
-    </div>
   </div>
+<!--  <div class="row">-->
+<!--    <div class="col-sm-4 mb-30">-->
+<!--      <app-project *ngIf="gameEngine" [project]="gameEngine"></app-project>-->
+<!--    </div>-->
+<!--  </div>-->
   <!--<footer class="text-center">-->
     <!--<h4>more coming soon...</h4>-->
   <!--</footer>-->

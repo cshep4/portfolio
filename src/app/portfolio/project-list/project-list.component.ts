@@ -9,6 +9,7 @@ import {JsonReaderService} from '../../service/json-reader-service';
 })
 export class ProjectListComponent implements OnInit {
   url = '../../assets/json/projects.json';
+  kripto: any;
   portfolioWebsite: any;
   premierPredictor: any;
   worldCupPredictor: any;
@@ -22,12 +23,13 @@ export class ProjectListComponent implements OnInit {
     this.jsonReaderService.readJson(this.url).then(result => {
       console.log(result);
 
-      this.portfolioWebsite = result[0];
-      this.premierPredictor = result[1];
-      this.worldCupPredictor = result[2];
-      this.monsterAttack = result[3];
-      this.gyme = result[4];
-      this.gameEngine = result[5];
+      this.kripto = result[0];
+      this.portfolioWebsite = result[1];
+      this.premierPredictor = result[2];
+      this.worldCupPredictor = result[3];
+      this.monsterAttack = result[4];
+      this.gyme = result[5];
+      this.gameEngine = result[6];
     }, err => {
       console.log(err);
     });
