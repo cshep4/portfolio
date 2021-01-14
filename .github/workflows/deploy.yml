@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  deploy_live_website:
+  deploy_portfolio:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -23,3 +23,4 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_7BD98 }}'
           projectId: portfolio-7bd98
+          channelId: live
