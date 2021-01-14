@@ -2,12 +2,12 @@
   "name": "premierpredictor",
   "imageClass": "premier-predictor-item",
   "numImages": 9,
-  "language": "Ionic | Kotlin | Go",
-  "title": "Premier Predictor 18/19",
+  "language": "Ionic | Go | Kotlin | TypeScript",
+  "title": "Premier Predictor",
   "text": [
-    "Premier League predictor app designed for users to correctly predict all the scores for the 18/19 season to score points, as well as creating mini-leagues to compete with friends. Users can also check live match scores and stats.",
-    "This is built using the Ionic framework, with back-end APIs written in Kotlin using Spring Boot. The back-end is fully unit tested using TDD and is currently being hosted on Heroku.",
-    "The database used to store user data and match results is using PostgreSQL. A noSQL DynamoDB database is used to store the live match stat data.",
+    "Premier League predictor app designed for users to correctly predict the scores of each match to score points, as well as creating mini-leagues to compete with friends. Users can also check live match scores and stats.",
+    "This is built using the Ionic framework, with a distributed back-end written in multiple languages, communicating via gRPC. The back-end is fully unit tested using TDD and is currently being hosted using Kubernetes on Google Cloud Platform.",
+    "The database used to store user data, match results and live match stat data is MongoDB. For the 18/19 season PostgreSQL and DynamoDB were used.",
     "Websockets are used to send the live match data automatically to the user's device when the match is in-play. Scheduled AWS Lambda functions are used to automatically check if games are in-play and to retrieve the live data.",
     "A scheduled AWS Lambda function is also used to automatically call an API to update user scores. All match data is retrieved from an external API, the results are then used to compare against each user's predictions to assign points.",
     "The app uses adverts to generate revenue. The adverts are provided by Google's Admob service."
@@ -18,42 +18,40 @@
   "userCount": "PremierPredictor",
   "category": "mobile",
   "techStack": [
-    "Kotlin",
-    "Spring Boot",
-    "Ionic",
-    "Angular",
     "Go",
-    "Node.js",
-    "HTML",
-    "Sass",
+    "Kotlin",
+    "Ionic",
     "TypeScript",
+    "JavaScript",
+    "Java",
+    "gRPC",
+    "Kubernetes",
+    "Ambassador",
+    "MongoDB",
     "PostgreSQL",
     "DynamoDB",
     "Redis",
-    "Mockito",
-    "Firebase",
     "Serverless",
     "AWS Lambda",
+    "GCP",
     "Heroku",
     "Android",
     "iOS",
+    "Angular",
+    "Node.js",
+    "Spring Boot",
+    "Mockito",
+    "Firebase",
     "Admob"
   ],
   "links": [
     {
       "icon": "zmdi zmdi-github",
-      "url": "https://github.com/cshep4/premier-predictor-functions",
-      "text": "Serverless"
+      "url": "https://github.com/cshep4/premier-predictor-functions"
     },
     {
       "icon": "zmdi zmdi-github",
-      "url": "https://github.com/cshep4/premierpredictor",
-      "text": "Back-end"
-    },
-    {
-      "icon": "zmdi zmdi-github",
-      "url": "https://github.com/cshep4/premier-predictor",
-      "text": "Front-end"
+      "url": "https://github.com/cshep4/premier-predictor-microservices"
     }
   ],
   "reviews": [
@@ -99,6 +97,15 @@
       "name": "msader",
       "text": [
         "Looks better than the World Cup one. Can’t wait."
+      ],
+      "rating": 5,
+      "os": "apple",
+      "region": "United Kingdom"
+    },
+    {
+      "name": "siân w",
+      "text": [
+        "I love this app. Know nothing about football yet am beating everyone in my league!!!"
       ],
       "rating": 5,
       "os": "apple",

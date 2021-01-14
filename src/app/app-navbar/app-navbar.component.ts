@@ -1,5 +1,6 @@
 import {Component, OnInit, ViewEncapsulation} from '@angular/core';
 import {NavigationEnd, Router} from '@angular/router';
+import {VisitorService} from '../service/visitor-service';
 
 @Component({
   selector: 'app-navbar',
@@ -9,8 +10,9 @@ import {NavigationEnd, Router} from '@angular/router';
 })
 export class AppNavbarComponent implements OnInit {
   sectionScroll: any;
+  private country = 'GB';
 
-  constructor(private router: Router) { }
+  constructor(private router: Router, private visitorService: VisitorService) { }
 
   ngOnInit() {
     this.router.events.subscribe((evt) => {
@@ -20,11 +22,22 @@ export class AppNavbarComponent implements OnInit {
       this.doScroll();
       this.sectionScroll = null;
     });
+
+    this.visitorService.getIpAddress().subscribe(res => {
+      const ip = res['ip'];
+      this.visitorService.getGEOLocation(ip).subscribe(loc => {
+        this.country = loc['country_code2'];
+      });
+    });
   }
 
   internalRoute(page, dst) {
     this.sectionScroll = dst;
     this.router.navigate([page], {fragment: dst});
+  }
+
+  displayResume(): boolean {
+    return this.country === 'US' || this.country === 'CA';
   }
 
   doScroll() {

@@ -1,7 +1,7 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppComponent } from './app.component';
+import {AppComponent} from './app.component';
 import {AppNavbarComponent} from './app-navbar/app-navbar.component';
 import {PreloaderComponent} from './preloader/preloader.component';
 import {routing} from './app.routing';
@@ -12,6 +12,7 @@ import {HttpClientModule} from '@angular/common/http';
 import {ContactService} from './service/contact-service';
 import {PortfolioModule} from './portfolio/portfolio.module';
 import {UserCountService} from './service/user-count-service';
+import {VisitorService} from './service/visitor-service';
 
 @NgModule({
   declarations: [
@@ -30,8 +31,10 @@ import {UserCountService} from './service/user-count-service';
   providers: [
     JsonReaderService,
     ContactService,
+    VisitorService,
     UserCountService
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

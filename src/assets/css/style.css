@@ -1973,6 +1973,9 @@ blockquote {
   #download_cv.mdl-button {
     margin-bottom: 20px;
     margin-left: 10px; }
+  #download_resume.mdl-button {
+    margin-bottom: 20px;
+    margin-left: 10px; }
 
   .about-sec .datepicker {
     left: -25px; } }

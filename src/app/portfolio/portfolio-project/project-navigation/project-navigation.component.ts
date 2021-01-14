@@ -1,5 +1,4 @@
 import {Component, Input, OnInit, ViewEncapsulation} from '@angular/core';
-import {ContactService} from '../../../service/contact-service';
 
 @Component({
   selector: 'app-project-navigation',

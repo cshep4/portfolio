@@ -29,7 +29,7 @@
   {
     "name": "premierpredictor",
     "imageClass": "premier-predictor-thumb",
-    "language": "Ionic | Kotlin | Go",
+    "language": "Ionic | Go | Kotlin",
     "title": "Premier Predictor",
     "icon": "zmdi zmdi-smartphone-iphone",
     "colour": "bg-blue",
@@ -37,29 +37,17 @@
     "date": "08/18",
     "links": [
       {
-        "icon": "fab fa-android",
-        "url": "https://play.google.com/store/apps/details?id=com.cshep4.premierpredictor",
-        "text": "Google Play Store"
-      },
-      {
         "icon": "fab fa-apple",
         "url": "https://itunes.apple.com/us/app/premier-predictor-18-19/id1418486863?ls=1&mt=8",
         "text": "Apple App Store"
       },
       {
         "icon": "zmdi zmdi-github",
-        "url": "https://github.com/cshep4/premier-predictor-functions",
-        "text": "Serverless"
+        "url": "https://github.com/cshep4/premier-predictor-functions"
       },
       {
         "icon": "zmdi zmdi-github",
-        "url": "https://github.com/cshep4/premierpredictor",
-        "text": "Back-end"
-      },
-      {
-        "icon": "zmdi zmdi-github",
-        "url": "https://github.com/cshep4/premier-predictor",
-        "text": "Front-end"
+        "url": "https://github.com/cshep4/premier-predictor-microservices"
       }
     ]
   },
