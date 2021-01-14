@@ -9,7 +9,7 @@ jobs:
   deploy_portfolio:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v2
 
       - name: Build
@@ -17,10 +17,12 @@ jobs:
           npm install
           npm run build
 
-      - name: Checkout code
+      - name: Deploy
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_7BD98 }}'
           projectId: portfolio-7bd98
           channelId: live
+        env:
+          FIREBASE_CLI_PREVIEWS: hostingchannels
