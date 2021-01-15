@@ -23,12 +23,12 @@ export class ContactService {
 
       this.http.post(url, JSON.stringify(body), options).subscribe((res: any) => {
         if (res.status < 200 || res.status >= 300) {
-          reject('Could not send message, please try again. Alternatively, send me an email directly to chris_shepherd2@hotmail.com.');
+          reject('Could not send message, please try again. Alternatively, send me an email directly to me@chrisshhepherd.io.');
         } else {
           resolve('Message sent successfully!');
         }
       }, (err) => {
-        reject('Could not send message, please try again. Alternatively, send me an email directly to chris_shepherd2@hotmail.com.');
+        reject('Could not send message, please try again. Alternatively, send me an email directly to me@chrisshhepherd.io.');
       });
     });
   }
@@ -45,7 +45,7 @@ export class ContactService {
     return {
       'method': 'SendEmail',
       'params': `{
-          \"To\": \"chris_shepherd2@hotmail.com\",
+          \"To\": \"me@chrisshhepherd.io\",
           \"From\": \"` + data.inputEmail + `\",
           \"Sender\": \"` + data.inputName + `\",
           \"Recipient\": \"Chris Shepherd\",
@@ -59,7 +59,7 @@ export class ContactService {
     return {
       'method': 'SendEmail',
       'params': `{
-          \"To\": \"chris_shepherd2@hotmail.com\",
+          \"To\": \"me@chrisshhepherd.io\",
           \"From\": \"` + data.inputEmail + `\",
           \"Sender\": \"` + data.inputName + `\",
           \"Recipient\": \"Chris Shepherd\",
