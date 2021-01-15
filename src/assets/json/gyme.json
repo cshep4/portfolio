@@ -1,11 +1,11 @@
 {
   "name": "gyme",
-  "imageClass" : "gyme-item",
+  "imageClass": "gyme-item",
   "numImages": 3,
   "language": "PHP | HTML/CSS | JS | Kotlin | Go",
   "title": "Gyme",
   "userCountUrl": "https://6azvi2d91f.execute-api.us-east-1.amazonaws.com/dev/user-count/",
-  "text" : [
+  "text": [
     "Gym tracker website designed for weight-lifters to record their performance in the gym and view progress with various analytics.",
     "Users can enter their workout performance on the Workouts page, then can view various analytics based on the corresponding data. Analytics include attendance data, frequency of muscle groups and average weight. Workout suggestions are also created based on past visits.",
     "This is built using PHP with an MVC architecture in a framework I developed from scratch. The front-end is written in HTML/CSS using the W3.CSS responsive framework. Client-side JavaScript is also used for manipulating the DOM based on user interactions.",
@@ -15,10 +15,10 @@
     "I plan to develop an accompanying mobile app which will use the same Rest APIs from the Serverless back-end. As the main PHP codebase was developed in an MVC architecture, the back-end can also be reused for the mobile app with minimal adjustments.",
     "The database used in the application is MySQL, which is hosted using AWS Relational Database Service. With both the main PHP application and the new Serverless back-end using this."
   ],
-  "date" : "Aug 2017",
-  "website" : "https://www.gyme.co.uk",
-  "category" : "website",
-  "techStack" : [
+  "date": "Aug 2017",
+  "website": "https://www.gyme.co.uk",
+  "category": "website",
+  "techStack": [
     "PHP",
     "Go",
     "Kotlin",
@@ -34,22 +34,23 @@
     "AWS Lambda",
     "Serverless"
   ],
-  "links": [{
+  "links": [
+    {
       "icon": "zmdi zmdi-github",
       "url": "https://github.com/cshep4/gyme",
-      "text": "Main Codebase"
+      "text": "Web application"
     },
     {
-    "icon": "zmdi zmdi-github",
-    "url": "https://github.com/cshep4/gyme-serverless",
-    "text": "Serverless"
+      "icon": "zmdi zmdi-github",
+      "url": "https://github.com/cshep4/gyme-serverless",
+      "text": "Serverless functions"
     }
   ],
-  "previous" : {
+  "previous": {
     "name": "3dgameengine",
     "title": "3D Game Engine"
   },
-  "next" : {
+  "next": {
     "name": "monsterattack",
     "title": "Monster Attack"
   }

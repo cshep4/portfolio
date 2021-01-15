@@ -26,8 +26,7 @@
   ],
   "links": [{
     "icon": "zmdi zmdi-github",
-    "url": "https://github.com/cshep4/MonsterAttack_LibGDX",
-    "text": "Git Repo"
+    "url": "https://github.com/cshep4/MonsterAttack_LibGDX"
   }],
   "previous" : {
     "name": "gyme",
