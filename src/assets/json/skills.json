@@ -1,7 +1,6 @@
 [
   [
     {
-      "title": "back-end",
       "skills": [
         {
           "name": "Java",
@@ -22,73 +21,40 @@
           "name": "PHP",
           "ability": "75",
           "colour": "red-bar"
-        }
-      ]
-    },
-    {
-      "title": "front-end",
-      "skills": [
-        {
-          "name": "Angular (2+)",
-          "ability": "70",
-          "colour": "blue-bar"
-        },
-        {
-          "name": "HTML",
-          "ability": "65",
-          "colour": "green-bar"
-        },
-        {
-          "name": "CSS",
-          "ability": "55",
-          "colour": "yellow-bar"
         },
         {
           "name": "JavaScript",
           "ability": "70",
-          "colour": "red-bar"
-        }
-      ]
-    }
-  ],
-  [
-    {
-      "title": "mobile",
-      "skills": [
-        {
-          "name": "Ionic",
-          "ability": "80",
           "colour": "blue-bar"
-        },
-        {
-          "name": "Native Android",
-          "ability": "65",
-          "colour": "green-bar"
-        },
-        {
-          "name": "Flutter",
-          "ability": "50",
-          "colour": "yellow-bar"
         }
       ]
     },
     {
-      "title": "databases",
       "skills": [
         {
-          "name": "SQL",
-          "ability": "80",
+          "name": "PostgreSQL",
+          "ability": "85",
           "colour": "blue-bar"
         },
         {
           "name": "MongoDB",
-          "ability": "90",
+          "ability": "85",
           "colour": "green-bar"
         },
         {
-          "name": "DynamoDB",
-          "ability": "60",
+          "name": "Kubernetes",
+          "ability": "70",
           "colour": "yellow-bar"
+        },
+        {
+          "name": "Docker",
+          "ability": "70",
+          "colour": "red-bar"
+        },
+        {
+          "name": "RabbitMQ",
+          "ability": "70",
+          "colour": "blue-bar"
         }
       ]
     }

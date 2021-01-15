@@ -6,7 +6,7 @@
     "title": "Kripto",
     "icon": "icon-lambda",
     "colour": "bg-blue",
-    "text": "Periodically checks the BTC-GBP exchange rate using Coinbase APIs and makes intelligent decisions whether to buy/sell Bitcoin.",
+    "text": "Periodically checks the BTC-GBP price using Coinbase APIs and makes intelligent decisions whether to buy/sell Bitcoin.",
     "date": "06/20",
     "links": [
       {
@@ -21,7 +21,7 @@
     "language": "Angular | Go",
     "title": "Portfolio Website",
     "icon": "zmdi zmdi-desktop-mac",
-    "colour": "bg-yellow",
+    "colour": "bg-blue",
     "text": "This portfolio website to showcase my personal projects and experience in my career so far. With a small back-end for email.",
     "date": "09/18",
     "links": [
@@ -54,11 +54,13 @@
     "links": [
       {
         "icon": "zmdi zmdi-github",
-        "url": "https://github.com/cshep4/premier-predictor-functions"
+        "url": "https://github.com/cshep4/premier-predictor-functions",
+        "text": "Serverless functions"
       },
       {
         "icon": "zmdi zmdi-github",
-        "url": "https://github.com/cshep4/premier-predictor-microservices"
+        "url": "https://github.com/cshep4/premier-predictor-microservices",
+        "text": "Monorepo"
       }
     ]
   },
@@ -68,7 +70,7 @@
     "language": "Ionic | Kotlin",
     "title": "World Cup Predictor",
     "icon": "zmdi zmdi-smartphone-iphone",
-    "colour": "bg-red",
+    "colour": "bg-blue",
     "text": "Mobile app for users to predict match scores for the 2018 World Cup and create mini-leagues to compete against friends.",
     "date": "06/18",
     "links": [
@@ -90,14 +92,13 @@
     "language": "Java",
     "title": "Monster Attack",
     "icon": "zmdi zmdi-gamepad",
-    "colour": "bg-green",
+    "colour": "bg-blue",
     "text": "Shoot 'Em Up mobile game with the theme 'Mutation' developed whilst at University, redeveloped with the LibGDX engine.",
     "date": "03/18",
     "links": [
       {
         "icon": "zmdi zmdi-github",
-        "url": "https://github.com/cshep4/MonsterAttack_LibGDX",
-        "text": "Git Repo"
+        "url": "https://github.com/cshep4/MonsterAttack_LibGDX"
       }
     ]
   },
@@ -107,7 +108,7 @@
     "language": "PHP | HTML | JS | Kotlin | Go",
     "title": "Gyme",
     "icon": "zmdi zmdi-desktop-mac",
-    "colour": "bg-red",
+    "colour": "bg-blue",
     "text": "Responsive web application for users to track their performance in the gym and view progress with various analytics.",
     "date": "08/17",
     "links": [
@@ -119,12 +120,12 @@
       {
         "icon": "zmdi zmdi-github",
         "url": "https://github.com/cshep4/gyme",
-        "text": "Main Codebase"
+        "text": "Web application"
       },
       {
         "icon": "zmdi zmdi-github",
         "url": "https://github.com/cshep4/gyme-serverless",
-        "text": "Serverless"
+        "text": "Serverless functions"
       }
     ]
   },
@@ -134,14 +135,13 @@
     "language": "C++",
     "title": "3D Game Engine",
     "icon": "zmdi zmdi-gamepad",
-    "colour": "bg-yellow",
+    "colour": "bg-blue",
     "text": "3D game engine developed from scratch during my final year of University, it was written in C++ using OpenGL.",
     "date": "01/15",
     "links": [
       {
         "icon": "zmdi zmdi-github",
-        "url": "https://github.com/cshep4/game-engine",
-        "text": "Git Repo"
+        "url": "https://github.com/cshep4/game-engine"
       }
     ]
   }
